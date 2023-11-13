@@ -9,8 +9,8 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add executable
-add_executable(PiracerInterface main.cpp PiracerClass.cpp)
+add_executable(PiracerInterface main.cpp PiracerClass.cpp GamePad.cpp)
 
 # Link Python libraries
-target_link_libraries(PiracerInterface Python3::Python)
+target_link_libraries(PiracerInterface Python3::Python pthread)
 

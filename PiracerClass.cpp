@@ -59,3 +59,19 @@ void PiracerClass::setMode(int mode)
         PyErr_Print(); // Print the error details
     }
 }
+
+void PiracerClass::setThrottle(int throttle)
+{
+    pSetThrottle = PyObject_CallMethod(pInstance, "mode_select", "f", throttle);
+    if (pSetThrottle == NULL) {
+        PyErr_Print(); // Print the error details
+    }
+}
+
+void PiracerClass::setSteering(int steering)
+{
+    pSetSteering = PyObject_CallMethod(pInstance, "mode_select", "f", steering);
+    if (pSetSteering == NULL) {
+        PyErr_Print(); // Print the error details
+    }
+}

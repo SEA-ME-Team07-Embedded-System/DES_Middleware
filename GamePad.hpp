@@ -21,8 +21,8 @@ public:
     GamePad();
     ~GamePad();
 
-    // Read control input from the gamepad
     void readControl();
+    void connectControl();
 
     double getThrottle();
     double getSteering();

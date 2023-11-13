@@ -23,6 +23,8 @@ public:
     uint8_t getMode();
     void setGear(int gear);
     void setMode(int mode);
+    void setThrottle(int throttle);
+    void setSteering(int steering);
 };
 
 #endif

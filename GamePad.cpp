@@ -48,6 +48,11 @@ void GamePad::readControl()
     button_d = PyObject_IsTrue(PyObject_GetAttrString(pInput, "button_b"));
 }
 
+void GamePad::connectControl()
+{
+    
+}
+
 // Get the current throttle value
 double GamePad::getThrottle()
 {

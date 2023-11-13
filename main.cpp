@@ -8,7 +8,7 @@
 void fetchAndDisplayData(PiracerClass& piracer) {
 
     while(1) {
-        std::this_thread::sleep_for(std::chrono::seconds(1));
+        std::this_thread::sleep_for(std::chrono::milliseconds(100));
 
         uint8_t batteryLevel = piracer.getBattery();
         uint8_t currentGear = piracer.getGear();
@@ -20,23 +20,24 @@ void fetchAndDisplayData(PiracerClass& piracer) {
     }
 }
 
-void fetchAndDisplayData(GamePad& gamepad) {
+void gamepad_io(GamePad& gamepad, PiracerClass& piracer) {
 
     while(1) {
-        std::this_thread::sleep_for(std::chrono::nanoseconds(1));
+        
+        std::this_thread::sleep_for(std::chrono::milliseconds(100));
 
         gamepad.readControl();
 
-        std::cout << "Throttle: " << gamepad.getThrottle() << std::endl;
-        std::cout << "Steering: " << gamepad.getSteering() << std::endl;
-        
-        if(gamepad.getButtonP)
+        std::cout << "Throttle: " << piracer.setThrottle(gamepad.getThrottle()) << std::endl;
+        std::cout << "Steering: " << piracer.setSteering(gamepad.getSteering()) << std::endl;
+
+        if(gamepad.getButtonP())
             std::cout << "Changed Mode: " << gamepad.getButtonP() << std::endl;
-        elif(gamepad.getButtonR)
+        else if(gamepad.getButtonR())
             std::cout << "Changed Mode: " << gamepad.getButtonR() << std::endl;
-        elif(gamepad.getButtonN)
+        else if(gamepad.getButtonN())
             std::cout << "Changed Mode: " << gamepad.getButtonN() << std::endl;
-        elif(gamepad.getButtonD)
+        else if(gamepad.getButtonD())
             std::cout << "Changed Mode: " << gamepad.getButtonD() << std::endl;
     }
 }
@@ -47,8 +48,8 @@ int main() {
 
     // Create threads for fetching data
     std::vector<std::thread> threads;
-    threads.emplace_back(fetchAndDisplayData, std::ref(piracer));
-    threads.emplace_back(gamepad_io, std::ref(gamepad));
+    //threads.emplace_back(fetchAndDisplayData, std::ref(piracer));
+    threads.emplace_back(gamepad_io, std::ref(gamepad), std::ref(piracer));
 
     // Wait for threads to finish
     for (auto& t : threads) {
