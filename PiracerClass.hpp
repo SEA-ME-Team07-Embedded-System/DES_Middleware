@@ -7,7 +7,7 @@
 class PiracerClass
 {
 private:
-    PyObject *pModule, *pClass, *pInstance, *pBattery, *pGear, *pMode;
+    PyObject *pModule, *pClass, *pInstance, *pBattery, *pGear, *pMode, *pSetGear, *pSetMode;
     
     long m_battery;
     long m_gear;
@@ -21,6 +21,8 @@ public:
     uint8_t getBattery();
     uint8_t getGear();
     uint8_t getMode();
+    void setGear(int gear);
+    void setMode(int mode);
 };
 
 #endif

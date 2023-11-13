@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PiracerInterface.dir/PiracerClass.cpp.o"
+  "CMakeFiles/PiracerInterface.dir/PiracerClass.cpp.o.d"
   "CMakeFiles/PiracerInterface.dir/main.cpp.o"
+  "CMakeFiles/PiracerInterface.dir/main.cpp.o.d"
   "PiracerInterface"
   "PiracerInterface.pdb"
 )
