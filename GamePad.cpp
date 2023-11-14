@@ -1,7 +1,7 @@
 #include "GamePad.hpp"
 #include <iostream>
 
-GamePad::ControllerClass()
+GamePad::GamePad()
 {
     Py_Initialize();
     pModule = PyImport_ImportModule("seame_piracer.gamepads");
@@ -17,7 +17,7 @@ GamePad::ControllerClass()
     button_d = false;
 }
 
-GamePad::~ControllerClass()
+GamePad::~GamePad()
 {
     Py_DECREF(pThrottle);
     Py_DECREF(pSteering);
@@ -46,11 +46,6 @@ void GamePad::readControl()
     button_r = PyObject_IsTrue(PyObject_GetAttrString(pInput, "button_x"));
     button_n = PyObject_IsTrue(PyObject_GetAttrString(pInput, "button_a"));
     button_d = PyObject_IsTrue(PyObject_GetAttrString(pInput, "button_b"));
-}
-
-void GamePad::connectControl()
-{
-    
 }
 
 // Get the current throttle value

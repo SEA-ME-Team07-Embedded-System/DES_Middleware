@@ -4,52 +4,78 @@
 #include <thread>
 #include <vector>
 #include <chrono>
+#include <mutex>
 
-void fetchAndDisplayData(PiracerClass& piracer) {
+std::mutex mtx;
 
-    while(1) {
-        std::this_thread::sleep_for(std::chrono::milliseconds(100));
+struct GearState {
+    bool gearP = false;
+    bool gearR = false;
+    bool gearN = false;
+    bool gearD = false;
+};
 
-        uint8_t batteryLevel = piracer.getBattery();
-        uint8_t currentGear = piracer.getGear();
-        uint8_t currentMode = piracer.getMode();
+struct ModeState {
+    int modeS = false;
+    int modeN = false;
+    int modeE = false;
+};
 
-        std::cout << "Battery Level: " << static_cast<int>(batteryLevel) << std::endl;
-        std::cout << "Current Gear: " << static_cast<int>(currentGear) << std::endl;
-        std::cout << "Current Mode: " << static_cast<int>(currentMode) << std::endl;
-    }
-}
+void gamepad_io(GamePad& gamepad, PiracerClass& piracer, GearState& gearstate, uint8_t& batteryLevel)  {
 
-void gamepad_io(GamePad& gamepad, PiracerClass& piracer) {
-
-    while(1) {
-        
-        std::this_thread::sleep_for(std::chrono::milliseconds(100));
-
+    while(true) {
         gamepad.readControl();
+        float throttle = gamepad.getThrottle();
+        float steering = gamepad.getSteering();
 
-        std::cout << "Throttle: " << piracer.setThrottle(gamepad.getThrottle()) << std::endl;
-        std::cout << "Steering: " << piracer.setSteering(gamepad.getSteering()) << std::endl;
+        // Gear change through drive
+        gearstate.gearP = (throttle == 0 && steering == 0);
+        gearstate.gearR = (throttle < 0);
+        gearstate.gearN = (throttle == 0 && steering != 0);
+        gearstate.gearD = (throttle > 0);
 
-        if(gamepad.getButtonP())
-            std::cout << "Changed Mode: " << gamepad.getButtonP() << std::endl;
-        else if(gamepad.getButtonR())
-            std::cout << "Changed Mode: " << gamepad.getButtonR() << std::endl;
-        else if(gamepad.getButtonN())
-            std::cout << "Changed Mode: " << gamepad.getButtonN() << std::endl;
-        else if(gamepad.getButtonD())
-            std::cout << "Changed Mode: " << gamepad.getButtonD() << std::endl;
+        // Gear change through GamePad
+        if(gamepad.getButtonP()) {gearstate.gearP = true; gearstate.gearR = false; gearstate.gearN = false; gearstate.gearD = false;}
+        if(gamepad.getButtonR()) {gearstate.gearP = false; gearstate.gearR = true; gearstate.gearN = false; gearstate.gearD = false;}
+        if(gamepad.getButtonN()) {gearstate.gearP = false; gearstate.gearR = false; gearstate.gearN = true; gearstate.gearD = false;}
+        if(gamepad.getButtonD()) {gearstate.gearP = false; gearstate.gearR = false; gearstate.gearN = false; gearstate.gearD = true;}
+        
+        // Debug Gear 
+        if(gearstate.gearP)
+            std::cout << "Gear : P" << std::endl;
+        if(gearstate.gearR)
+            std::cout << "Gear : R" << std::endl;
+        if(gearstate.gearN)
+            std::cout << "Gear : N" << std::endl;
+        if(gearstate.gearD)
+            std::cout << "Gear : D" << std::endl;
+
+        // Debug Battery Level
+        batteryLevel = piracer.getBattery();
+        std::cout << "Battery: " << static_cast<int> (batteryLevel) << std::endl;
+
+        // Debug Throttle and Steering
+        std::cout << "Throttle: " << throttle << std::endl;
+        std::cout << "Steering: " << steering << std::endl;
+    
+        piracer.setThrottle(throttle);
+        piracer.setSteering(steering);
     }
 }
 
 int main() {
+
     PiracerClass piracer;
     GamePad gamepad;
+    
+    GearState gearstate;
+    ModeState modestate;
+    uint8_t batteryLevel;
 
     // Create threads for fetching data
     std::vector<std::thread> threads;
-    //threads.emplace_back(fetchAndDisplayData, std::ref(piracer));
-    threads.emplace_back(gamepad_io, std::ref(gamepad), std::ref(piracer));
+    threads.emplace_back(gamepad_io, std::ref(gamepad), std::ref(piracer), std::ref(gearstate), std::ref(batteryLevel));
+
 
     // Wait for threads to finish
     for (auto& t : threads) {
@@ -57,6 +83,6 @@ int main() {
             t.join();
         }
     }
-
+    
     return 0;
 }

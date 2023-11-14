@@ -7,11 +7,9 @@
 class PiracerClass
 {
 private:
-    PyObject *pModule, *pClass, *pInstance, *pBattery, *pGear, *pMode, *pSetGear, *pSetMode;
-    
+    PyObject *pBattery, *pSetThrottle, *pSetSteering, *pVehicleModule, *pVehicleClass, *pVehicleInstance;
+
     long m_battery;
-    long m_gear;
-    long m_mode;
 
 public:
     PiracerClass();
@@ -19,12 +17,8 @@ public:
 
     // Method to get the battery level by calling a Python method
     uint8_t getBattery();
-    uint8_t getGear();
-    uint8_t getMode();
-    void setGear(int gear);
-    void setMode(int mode);
-    void setThrottle(int throttle);
-    void setSteering(int steering);
+    void setThrottle(float throttle);
+    void setSteering(float steering);
 };
 
 #endif

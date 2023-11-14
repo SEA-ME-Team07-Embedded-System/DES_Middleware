@@ -22,7 +22,6 @@ public:
     ~GamePad();
 
     void readControl();
-    void connectControl();
 
     double getThrottle();
     double getSteering();
