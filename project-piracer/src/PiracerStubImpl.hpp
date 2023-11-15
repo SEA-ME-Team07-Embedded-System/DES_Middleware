@@ -3,7 +3,7 @@
 #define PIRACERSTUBIMPL_H_
 
 #include <CommonAPI/CommonAPI.hpp>
-#include <v1/commonapi/HelloWorldStubDefault.hpp>
+#include <v1/commonapi/PiracerStubDefault.hpp>
 
 class PiracerStubImpl: public v1_0::commonapi::PiracerStubDefault {
 public:

@@ -18,11 +18,14 @@ int main() {
     std::cout << "Available..." << std::endl;
 
     CommonAPI::CallStatus callStatus;
+    
+    int i = 0;
 
     while(true) {
-        usleep(3 * microsecond);//sleeps for 3 second
-        piracerProxy->modeSelect(i, callStatus);
+        std::this_thread::sleep_for(std::chrono::seconds(1));
+	piracerProxy->modeSelect(i, callStatus);
         std::cout << "Send message: " << i << std::endl;
+	i++;
     }
     
     return 0;

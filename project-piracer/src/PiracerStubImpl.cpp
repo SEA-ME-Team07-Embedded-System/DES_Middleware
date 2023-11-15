@@ -12,7 +12,7 @@ PiracerStubImpl::~PiracerStubImpl() { }
 // Method Call function
 void PiracerStubImpl::modeSelect(const std::shared_ptr<CommonAPI::ClientId> _client,
 	int _mode) {
-	    std::cout << "Mode Select :" << _mode << std;
+	    std::cout << "Mode Select :" << _mode << std::endl;
 }
 
 
@@ -28,15 +28,15 @@ void PiracerStubImpl::batteryPublisher(const uint8_t  battery) {
 void PiracerStubImpl::gearPublisher(const uint8_t  gear) {
   if (_gear != gear) {
     _gear = gear;
-    setFdisAttribute(_gear);
+    setGearAttribute(_gear);
     std::cout <<  "New Gear Data = " << int(_gear) << "!" << std::endl;
   }
 }
 
-void PiracerStubImpl::rpmPublisher(const uint8_t mode) {
+void PiracerStubImpl::modePublisher(const uint8_t mode) {
   if (_mode != mode) {
     _mode = mode;
-    setRpmAttribute(_mode);
+    setModeAttribute(_mode);
     std::cout <<  "New Mode Data = " << int(_mode) << "!" << std::endl;
   }
 }
