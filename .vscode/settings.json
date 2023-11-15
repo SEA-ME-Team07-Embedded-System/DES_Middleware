@@ -50,6 +50,11 @@
         "variant": "cpp",
         "vector": "cpp",
         "execution": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "__split_buffer": "cpp",
+        "array": "cpp",
+        "sstream": "cpp",
+        "thread": "cpp",
+        "unordered_map": "cpp"
     }
 }

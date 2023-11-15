@@ -7,8 +7,8 @@ PiracerClass::PiracerClass()
     pVehicleClass = PyObject_GetAttrString(pVehicleModule, "PiRacerStandard");
     pVehicleInstance = PyObject_CallObject(pVehicleClass, NULL);
 
-    m_battery = 0;
-
+    m_voltageLevel = 0;
+    m_batteryLevel = 0;
 }
 
 PiracerClass::~PiracerClass()
@@ -19,15 +19,17 @@ PiracerClass::~PiracerClass()
     Py_DECREF(pVehicleInstance);
     Py_DECREF(pSetThrottle);
     Py_DECREF(pSetSteering);
-    Py_DECREF(pBattery);
+    Py_DECREF(pVoltage);
     Py_Finalize();
 }
 
 uint8_t PiracerClass::getBattery()
 {
-    pBattery = PyObject_CallMethod(pVehicleInstance, "get_battery", NULL);
-    m_battery = PyLong_AsLong(pBattery);
-    return static_cast<uint8_t>(m_battery);
+    pVoltage = PyObject_CallMethod(pVehicleInstance, "get_battery_voltage", NULL);
+    m_voltageLevel = PyFloat_AsDouble(pVoltage);
+    m_batteryLevel = (uint8_t) ((m_voltageLevel - 2.8 * 3.0) / (12.3 - 2.8 * 3.0) * 100.0);
+    
+    return m_batteryLevel;
 }
 
 void PiracerClass::setThrottle(float throttle)

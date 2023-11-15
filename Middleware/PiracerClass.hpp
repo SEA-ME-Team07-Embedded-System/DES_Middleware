@@ -7,9 +7,10 @@
 class PiracerClass
 {
 private:
-    PyObject *pBattery, *pSetThrottle, *pSetSteering, *pVehicleModule, *pVehicleClass, *pVehicleInstance;
+    PyObject *pVoltage, *pSetThrottle, *pSetSteering, *pVehicleModule, *pVehicleClass, *pVehicleInstance;
 
-    long m_battery;
+    double m_voltageLevel;
+    uint8_t m_batteryLevel;
 
 public:
     PiracerClass();
