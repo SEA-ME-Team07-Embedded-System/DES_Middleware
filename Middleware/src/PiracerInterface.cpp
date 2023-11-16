@@ -1,5 +1,7 @@
 #include "PiracerClass.hpp"
 #include "GamePad.hpp"
+#include <CommonAPI/CommonAPI.hpp>
+#include "PiracerStubImpl.hpp"
 #include <iostream>
 #include <thread>
 #include <vector>
@@ -14,22 +16,32 @@ struct GearState {
     bool gearN = false;
     bool gearD = false;
 };
-void piracer_publish(GearState& gearstate, int& mode, uint8_t& batteryLevel) {
+void piracer_publish(GearState& gearstate, uint8_t& mode, uint8_t& batteryLevel) {
+
+    // Temporary Gear for enumerate
+    uint8_t gear = 0;
 
     while(true){
         {
             std::lock_guard<std::mutex> lock(mtx);
 
+            // Get Gear
+            if(gearstate.gearP) {std::cout << "Gear : P" << std::endl; gear = 0;}
+            if(gearstate.gearR) {std::cout << "Gear : R" << std::endl; gear = 1;}
+            if(gearstate.gearN) {std::cout << "Gear : N" << std::endl; gear = 2;}
+            if(gearstate.gearD) {std::cout << "Gear : D" << std::endl; gear = 3;}
+            
+            // Get Mode
+            mode = PiracerService->getMode();
+
+            // Get Battery
             std::cout << "Battery: " << static_cast<int> (batteryLevel) << std::endl;
 
-            if(gearstate.gearP)
-                std::cout << "Gear : P" << std::endl;
-            if(gearstate.gearR)
-                std::cout << "Gear : R" << std::endl;
-            if(gearstate.gearN)
-                std::cout << "Gear : N" << std::endl;
-            if(gearstate.gearD)
-                std::cout << "Gear : D" << std::endl;
+            // Publish Data
+            PiracerService->batteryPublisher(batteryLevel);
+            PiracerService->gearPublisher(gear);
+            PiracerService->modePublisher(mode);
+
         }
         // Sleep to reduce CPU usage
         std::this_thread::sleep_for(std::chrono::milliseconds(100));
@@ -55,38 +67,38 @@ void piracer_source(GamePad& gamepad, PiracerClass& piracer, GearState& gearstat
             if(gamepad.getButtonR()) {gearstate.gearP = false; gearstate.gearR = true; gearstate.gearN = false; gearstate.gearD = false;}
             if(gamepad.getButtonN()) {gearstate.gearP = false; gearstate.gearR = false; gearstate.gearN = true; gearstate.gearD = false;}
             if(gamepad.getButtonD()) {gearstate.gearP = false; gearstate.gearR = false; gearstate.gearN = false; gearstate.gearD = true;}
-            
-            // Debug Gear 
-            // if(gearstate.gearP)
-            //     std::cout << "Gear : P" << std::endl;
-            // if(gearstate.gearR)
-            //     std::cout << "Gear : R" << std::endl;
-            // if(gearstate.gearN)
-            //     std::cout << "Gear : N" << std::endl;
-            // if(gearstate.gearD)
-            //     std::cout << "Gear : D" << std::endl;
 
-            // Debug Battery Level
+            // Battery change
             batteryLevel = piracer.getBattery();
-            //std::cout << "Battery: " << static_cast<int> (batteryLevel) << std::endl;
 
             // Debug Throttle and Steering
             std::cout << "Throttle: " << throttle << std::endl;
             std::cout << "Steering: " << steering << std::endl;
         }
-        piracer.setThrottle(throttle * mode);
+        piracer.setThrottle(throttle * mode * 0.1);
         piracer.setSteering(steering);
 
     }
 }
 
 int main() {
+    // SOME/IP
+    std::shared_ptr<CommonAPI::Runtime> runtime = CommonAPI::Runtime::get();
+    std::string domain = "local";
+    std::string instance = "Piracer"; // instance id
+    std::shared_ptr<PiracerStubImpl> PiracerService = std::make_shared<PiracerStubImpl>();
+    while (!runtime->registerService(domain, instance, PiracerService))
+    {
+        std::cout << "Register Service failed, trying again in 100 milliseconds..." << std::endl;
+        std::this_thread::sleep_for(std::chrono::milliseconds(100));
+    }
+    std::cout << "Successfully Registered Service!" << std::endl;
 
+    // Piracer Python Binding
     PiracerClass piracer;
     GamePad gamepad;
-    
     GearState gearstate;
-    int mode = 1;
+    uint8_t mode = 5;
     uint8_t batteryLevel;
 
     // Create threads for fetching data

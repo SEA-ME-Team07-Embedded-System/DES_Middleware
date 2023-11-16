@@ -1,9 +1,0 @@
-{
-    "logging" :
-    {
-        "level" : "verbose",
-        "console" : "true",
-        "file" : { "enable" : "true", "path" : "./vsomeip.log" },
-        "dlt" : "false"
-    }
-}
