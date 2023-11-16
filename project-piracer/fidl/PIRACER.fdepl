@@ -1,5 +1,5 @@
 import "platform:/plugin/org.genivi.commonapi.someip/deployment/CommonAPI-4-SOMEIP_deployment_spec.fdepl"
-import "Piracer.fidl"
+import "PIRACER.fidl"
 
 define org.genivi.commonapi.someip.deployment for interface commonapi.Piracer {
   SomeIpServiceID = 4680
@@ -35,7 +35,7 @@ define org.genivi.commonapi.someip.deployment for interface commonapi.Piracer {
 
 define org.genivi.commonapi.someip.deployment for provider as PiracerService {
   instance commonapi.Piracer {
-    InstanceId = "piracer"
+    InstanceId = "Piracer"
     SomeIpInstanceID = 22140
   }
 }

@@ -119,7 +119,7 @@ class PiracerStub
     : public virtual CommonAPI::Stub<PiracerStubAdapter, PiracerStubRemoteEvent>
 {
 public:
-    typedef std::function<void ()> modeSelectReply_t;
+    typedef std::function<void (std::string _message)> modeSelectReply_t;
 
     virtual ~PiracerStub() {}
     void lockInterfaceVersionAttribute(bool _lockAccess) { static_cast<void>(_lockAccess); }
@@ -168,7 +168,7 @@ public:
             stubAdapter->lockModeAttribute(_lockAccess);
     }
     /// This is the method that will be called on remote calls on the method modeSelect.
-    virtual void modeSelect(const std::shared_ptr<CommonAPI::ClientId> _client, uint8_t _mode, modeSelectReply_t _reply) = 0;
+    virtual void modeSelect(const std::shared_ptr<CommonAPI::ClientId> _client, uint8_t _modeS, modeSelectReply_t _reply) = 0;
 
 
     using CommonAPI::Stub<PiracerStubAdapter, PiracerStubRemoteEvent>::initStubAdapter;

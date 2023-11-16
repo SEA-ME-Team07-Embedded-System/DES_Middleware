@@ -92,11 +92,12 @@ public:
      * Calls modeSelect with synchronous semantics.
      *
      * All const parameters are input parameters to this method.
+     * All non-const parameters will be filled with the returned values.
      * The CallStatus will be filled when the method returns and indicate either
      * "SUCCESS" or which type of error has occurred. In case of an error, ONLY the CallStatus
      * will be set.
      */
-    virtual void modeSelect(uint8_t _mode, CommonAPI::CallStatus &_internalCallStatus, const CommonAPI::CallInfo *_info = nullptr);
+    virtual void modeSelect(uint8_t _modeS, CommonAPI::CallStatus &_internalCallStatus, std::string &_message, const CommonAPI::CallInfo *_info = nullptr);
     /**
      * Calls modeSelect with asynchronous semantics.
      *
@@ -107,7 +108,7 @@ public:
      * The std::future returned by this method will be fulfilled at arrival of the reply.
      * It will provide the same value for CallStatus as will be handed to the callback.
      */
-    virtual std::future<CommonAPI::CallStatus> modeSelectAsync(const uint8_t &_mode, ModeSelectAsyncCallback _callback = nullptr, const CommonAPI::CallInfo *_info = nullptr);
+    virtual std::future<CommonAPI::CallStatus> modeSelectAsync(const uint8_t &_modeS, ModeSelectAsyncCallback _callback = nullptr, const CommonAPI::CallInfo *_info = nullptr);
 
 
 
@@ -191,13 +192,13 @@ PiracerProxy<_AttributeExtensions...>::~PiracerProxy() {
 }
 
 template <typename ... _AttributeExtensions>
-void PiracerProxy<_AttributeExtensions...>::modeSelect(uint8_t _mode, CommonAPI::CallStatus &_internalCallStatus, const CommonAPI::CallInfo *_info) {
-    delegate_->modeSelect(_mode, _internalCallStatus, _info);
+void PiracerProxy<_AttributeExtensions...>::modeSelect(uint8_t _modeS, CommonAPI::CallStatus &_internalCallStatus, std::string &_message, const CommonAPI::CallInfo *_info) {
+    delegate_->modeSelect(_modeS, _internalCallStatus, _message, _info);
 }
 
 template <typename ... _AttributeExtensions>
-std::future<CommonAPI::CallStatus> PiracerProxy<_AttributeExtensions...>::modeSelectAsync(const uint8_t &_mode, ModeSelectAsyncCallback _callback, const CommonAPI::CallInfo *_info) {
-    return delegate_->modeSelectAsync(_mode, _callback, _info);
+std::future<CommonAPI::CallStatus> PiracerProxy<_AttributeExtensions...>::modeSelectAsync(const uint8_t &_modeS, ModeSelectAsyncCallback _callback, const CommonAPI::CallInfo *_info) {
+    return delegate_->modeSelectAsync(_modeS, _callback, _info);
 }
 
 template <typename ... _AttributeExtensions>

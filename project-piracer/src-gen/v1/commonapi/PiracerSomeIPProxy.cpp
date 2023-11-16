@@ -32,7 +32,7 @@ std::shared_ptr<CommonAPI::SomeIP::Proxy> createPiracerSomeIPProxy(
 
 void initializePiracerSomeIPProxy() {
     CommonAPI::SomeIP::AddressTranslator::get()->insert(
-        "local:commonapi.Piracer:v1_0:piracer",
+        "local:commonapi.Piracer:v1_0:Piracer",
         0x1248, 0x567c, 1, 0);
     CommonAPI::SomeIP::Factory::get()->registerProxyCreateMethod(
         "commonapi.Piracer:v1_0",
@@ -68,8 +68,9 @@ PiracerSomeIPProxy::ModeAttribute& PiracerSomeIPProxy::getModeAttribute() {
 }
 
 
-void PiracerSomeIPProxy::modeSelect(uint8_t _mode, CommonAPI::CallStatus &_internalCallStatus, const CommonAPI::CallInfo *_info) {
-    CommonAPI::Deployable< uint8_t, CommonAPI::SomeIP::IntegerDeployment<uint8_t>> deploy_mode(_mode, static_cast< CommonAPI::SomeIP::IntegerDeployment<uint8_t>* >(nullptr));
+void PiracerSomeIPProxy::modeSelect(uint8_t _modeS, CommonAPI::CallStatus &_internalCallStatus, std::string &_message, const CommonAPI::CallInfo *_info) {
+    CommonAPI::Deployable< uint8_t, CommonAPI::SomeIP::IntegerDeployment<uint8_t>> deploy_modeS(_modeS, static_cast< CommonAPI::SomeIP::IntegerDeployment<uint8_t>* >(nullptr));
+    CommonAPI::Deployable< std::string, CommonAPI::SomeIP::StringDeployment> deploy_message(static_cast< CommonAPI::SomeIP::StringDeployment* >(nullptr));
     CommonAPI::SomeIP::ProxyHelper<
         CommonAPI::SomeIP::SerializableArguments<
             CommonAPI::Deployable<
@@ -78,6 +79,10 @@ void PiracerSomeIPProxy::modeSelect(uint8_t _mode, CommonAPI::CallStatus &_inter
             >
         >,
         CommonAPI::SomeIP::SerializableArguments<
+            CommonAPI::Deployable<
+                std::string,
+                CommonAPI::SomeIP::StringDeployment
+            >
         >
     >::callMethodWithReply(
         *this,
@@ -85,12 +90,15 @@ void PiracerSomeIPProxy::modeSelect(uint8_t _mode, CommonAPI::CallStatus &_inter
         false,
         false,
         (_info ? _info : &CommonAPI::SomeIP::defaultCallInfo),
-        deploy_mode,
-        _internalCallStatus);
+        deploy_modeS,
+        _internalCallStatus,
+        deploy_message);
+    _message = deploy_message.getValue();
 }
 
-std::future<CommonAPI::CallStatus> PiracerSomeIPProxy::modeSelectAsync(const uint8_t &_mode, ModeSelectAsyncCallback _callback, const CommonAPI::CallInfo *_info) {
-    CommonAPI::Deployable< uint8_t, CommonAPI::SomeIP::IntegerDeployment<uint8_t>> deploy_mode(_mode, static_cast< CommonAPI::SomeIP::IntegerDeployment<uint8_t>* >(nullptr));
+std::future<CommonAPI::CallStatus> PiracerSomeIPProxy::modeSelectAsync(const uint8_t &_modeS, ModeSelectAsyncCallback _callback, const CommonAPI::CallInfo *_info) {
+    CommonAPI::Deployable< uint8_t, CommonAPI::SomeIP::IntegerDeployment<uint8_t>> deploy_modeS(_modeS, static_cast< CommonAPI::SomeIP::IntegerDeployment<uint8_t>* >(nullptr));
+    CommonAPI::Deployable< std::string, CommonAPI::SomeIP::StringDeployment> deploy_message(static_cast< CommonAPI::SomeIP::StringDeployment* >(nullptr));
     return CommonAPI::SomeIP::ProxyHelper<
         CommonAPI::SomeIP::SerializableArguments<
             CommonAPI::Deployable<
@@ -99,6 +107,10 @@ std::future<CommonAPI::CallStatus> PiracerSomeIPProxy::modeSelectAsync(const uin
             >
         >,
         CommonAPI::SomeIP::SerializableArguments<
+            CommonAPI::Deployable<
+                std::string,
+                CommonAPI::SomeIP::StringDeployment
+            >
         >
     >::callMethodAsync(
         *this,
@@ -106,12 +118,12 @@ std::future<CommonAPI::CallStatus> PiracerSomeIPProxy::modeSelectAsync(const uin
         false,
         false,
         (_info ? _info : &CommonAPI::SomeIP::defaultCallInfo),
-        deploy_mode,
-        [_callback] (CommonAPI::CallStatus _internalCallStatus) {
+        deploy_modeS,
+        [_callback] (CommonAPI::CallStatus _internalCallStatus, CommonAPI::Deployable< std::string, CommonAPI::SomeIP::StringDeployment > _message) {
             if (_callback)
-                _callback(_internalCallStatus);
+                _callback(_internalCallStatus, _message.getValue());
         },
-        std::make_tuple());
+        std::make_tuple(deploy_message));
 }
 
 void PiracerSomeIPProxy::getOwnVersion(uint16_t& ownVersionMajor, uint16_t& ownVersionMinor) const {

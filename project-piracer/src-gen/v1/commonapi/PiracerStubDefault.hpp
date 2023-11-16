@@ -99,10 +99,11 @@ public:
             fireModeAttributeChanged(modeAttributeValue_);
         }
     }
-    COMMONAPI_EXPORT virtual void modeSelect(const std::shared_ptr<CommonAPI::ClientId> _client, uint8_t _mode, modeSelectReply_t _reply) {
+    COMMONAPI_EXPORT virtual void modeSelect(const std::shared_ptr<CommonAPI::ClientId> _client, uint8_t _modeS, modeSelectReply_t _reply) {
         (void)_client;
-        (void)_mode;
-        _reply();
+        (void)_modeS;
+        std::string message = "";
+        _reply(message);
     }
 
 

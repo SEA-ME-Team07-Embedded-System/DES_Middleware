@@ -9,7 +9,10 @@ interface Piracer {
   
   method modeSelect {
     in {
-      UInt8 mode
+      UInt8 modeS
+    }
+    out {
+      String message
     }
   }
 }
