@@ -1594,3 +1594,1935 @@
 2023-10-16 15:24:16.197406 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
 2023-10-16 15:24:16.088738 [info] Stopping vsomeip application "" (1001).
 2023-10-16 15:24:16.092458 [info] Exiting vsomeip application...
+2023-10-16 15:59:12.481037 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 15:59:12.481546 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 15:59:12.481652 [info] Configuration module loaded.
+2023-10-16 15:59:12.481737 [info] Initializing vsomeip application "team07".
+2023-10-16 15:59:12.481897 [info] Instantiating routing manager [Host].
+2023-10-16 15:59:12.482227 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 15:59:12.483195 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 15:59:12.485676 [info] Service Discovery module loaded.
+2023-10-16 15:59:12.486290 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 15:59:12.487919 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 15:59:12.487906 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 15:59:12.488929 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 15:59:12.489264 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 15:59:12.489336 [info] main dispatch thread id from application: 1000 (team07) is: 7fc441ce4700 TID: 47093
+2023-10-16 15:59:12.489408 [info] shutdown thread id from application: 1000 (team07) is: 7fc4414e3700 TID: 47094
+2023-10-16 15:59:12.489630 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 15:59:12.490516 [info] Watchdog is disabled!
+2023-10-16 15:59:12.490944 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 15:59:12.491067 [info] io thread id from application: 1000 (team07) is: 7fc4424e5700 TID: 47092
+2023-10-16 15:59:12.491093 [info] io thread id from application: 1000 (team07) is: 7fc433fff700 TID: 47096
+2023-10-16 15:59:12.491938 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 15:59:12.492423 [info] Network interface "lo" state changed: up
+2023-10-16 15:59:14.923810 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 15:59:14.924123 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 15:59:14.924217 [info] Configuration module loaded.
+2023-10-16 15:59:14.924292 [info] Initializing vsomeip application "".
+2023-10-16 15:59:14.924430 [info] Instantiating routing manager [Proxy].
+2023-10-16 15:59:14.924590 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 15:59:14.924739 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 15:59:14.925627 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 15:59:14.926295 [info] main dispatch thread id from application: ffff () is: 7f56e4f94700 TID: 47119
+2023-10-16 15:59:14.926866 [info] shutdown thread id from application: ffff () is: 7f56dffff700 TID: 47120
+2023-10-16 15:59:14.927098 [info] io thread id from application: ffff () is: 7f56e5795700 TID: 47118
+2023-10-16 15:59:14.927135 [info] io thread id from application: ffff () is: 7f56df7fe700 TID: 47121
+2023-10-16 15:59:14.929295 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 15:59:14.929478 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 15:59:14.929720 [info] Application/Client 1001 is registering.
+2023-10-16 15:59:14.930491 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 15:59:14.931143 [info] Application/Client 1001 () is registered.
+2023-10-16 15:59:14.932457 [info] REGISTERED_ACK(1001)
+2023-10-16 15:59:14.932823 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 15:59:14.932984 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 15:59:14.933083 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 15:59:14.027846 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 15:59:14.029673 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 15:59:14.030289 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 15:59:14.033183 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 15:59:14.033602 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 15:59:14.034150 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 15:59:14.034604 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 15:59:14.035589 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 15:59:14.035897 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 15:59:22.492727 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 15:59:30.422021 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 15:59:30.425113 [info] Client [1001] is closing connection to [1000]
+2023-10-16 15:59:30.425326 [info] Client [1000] is closing connection to [1001]
+2023-10-16 15:59:30.425762 [info] Application/Client 1001: Reconnecting to routing manager.
+2023-10-16 15:59:30.426074 [info] Exiting vsomeip application...
+2023-10-16 15:59:30.427614 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 15:59:30.428565 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 15:59:30.430404 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 15:59:30.431215 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 15:59:30.813770 [info] Stopping vsomeip application "" (1001).
+2023-10-16 15:59:30.816779 [info] Exiting vsomeip application...
+2023-10-16 16:01:15.423099 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:01:15.425392 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:01:15.425756 [info] Configuration module loaded.
+2023-10-16 16:01:15.425856 [info] Initializing vsomeip application "team07".
+2023-10-16 16:01:15.426026 [info] Instantiating routing manager [Host].
+2023-10-16 16:01:15.426359 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:01:15.427334 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:01:15.431127 [info] Service Discovery module loaded.
+2023-10-16 16:01:15.431776 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:01:15.432657 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:01:15.432489 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:01:15.433111 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:01:15.433410 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:01:15.433477 [info] main dispatch thread id from application: 1000 (team07) is: 7faa4ffff700 TID: 47697
+2023-10-16 16:01:15.433756 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:01:15.433669 [info] shutdown thread id from application: 1000 (team07) is: 7faa4f7fe700 TID: 47698
+2023-10-16 16:01:15.434415 [info] Watchdog is disabled!
+2023-10-16 16:01:15.434603 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:01:15.434832 [info] io thread id from application: 1000 (team07) is: 7faa54bb6700 TID: 47696
+2023-10-16 16:01:15.434835 [info] io thread id from application: 1000 (team07) is: 7faa4e7fc700 TID: 47700
+2023-10-16 16:01:15.435476 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:01:15.435861 [info] Network interface "lo" state changed: up
+2023-10-16 16:01:18.391286 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:01:18.391643 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:01:18.391740 [info] Configuration module loaded.
+2023-10-16 16:01:18.391805 [info] Initializing vsomeip application "".
+2023-10-16 16:01:18.391919 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:01:18.392074 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:01:18.392212 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:01:18.393143 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:01:18.393943 [info] main dispatch thread id from application: ffff () is: 7f40f9a48700 TID: 47722
+2023-10-16 16:01:18.394042 [info] shutdown thread id from application: ffff () is: 7f40f9247700 TID: 47723
+2023-10-16 16:01:18.394413 [info] io thread id from application: ffff () is: 7f40fa249700 TID: 47721
+2023-10-16 16:01:18.394460 [info] io thread id from application: ffff () is: 7f40f8a46700 TID: 47724
+2023-10-16 16:01:18.396203 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:01:18.396368 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:01:18.396615 [info] Application/Client 1001 is registering.
+2023-10-16 16:01:18.397256 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:01:18.397932 [info] Application/Client 1001 () is registered.
+2023-10-16 16:01:18.398164 [info] REGISTERED_ACK(1001)
+2023-10-16 16:01:18.398503 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:01:18.398628 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:01:18.398729 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:01:18.494258 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:01:18.495857 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:01:18.496778 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:01:18.499718 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:01:18.500377 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:01:18.501652 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:01:18.502118 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:01:18.502643 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:01:18.502878 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:01:25.436809 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:01:26.544343 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:01:26.547947 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:01:26.548064 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:01:26.548432 [info] Application/Client 1001: Reconnecting to routing manager.
+2023-10-16 16:01:26.548705 [info] Exiting vsomeip application...
+2023-10-16 16:01:26.549794 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:01:26.551068 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:01:26.552618 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:01:26.553441 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:01:26.554353 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:01:26.555461 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:01:26.890990 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:01:26.896513 [info] Exiting vsomeip application...
+2023-10-16 16:01:46.681642 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:01:46.682478 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:01:46.682568 [info] Configuration module loaded.
+2023-10-16 16:01:46.682637 [info] Initializing vsomeip application "team07".
+2023-10-16 16:01:46.682757 [info] Instantiating routing manager [Host].
+2023-10-16 16:01:46.682949 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:01:46.684206 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:01:46.686413 [info] Service Discovery module loaded.
+2023-10-16 16:01:46.686693 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:01:46.688137 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:01:46.688183 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:01:46.688803 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:01:46.689199 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:01:46.689688 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:01:46.689503 [info] main dispatch thread id from application: 1000 (team07) is: 7fd69e391700 TID: 47937
+2023-10-16 16:01:46.689502 [info] shutdown thread id from application: 1000 (team07) is: 7fd69db90700 TID: 47938
+2023-10-16 16:01:46.690500 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:01:46.690586 [info] Watchdog is disabled!
+2023-10-16 16:01:46.691340 [info] io thread id from application: 1000 (team07) is: 7fd69eb92700 TID: 47936
+2023-10-16 16:01:46.691365 [info] io thread id from application: 1000 (team07) is: 7fd69cb8e700 TID: 47940
+2023-10-16 16:01:46.692121 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:01:46.692814 [info] Network interface "lo" state changed: up
+2023-10-16 16:01:48.820841 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:01:48.821169 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:01:48.821270 [info] Configuration module loaded.
+2023-10-16 16:01:48.821336 [info] Initializing vsomeip application "".
+2023-10-16 16:01:48.821463 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:01:48.821617 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:01:48.821754 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:01:48.822492 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:01:48.823356 [info] shutdown thread id from application: ffff () is: 7fe7c1e1a700 TID: 47967
+2023-10-16 16:01:48.824072 [info] io thread id from application: ffff () is: 7fe7c2e1c700 TID: 47965
+2023-10-16 16:01:48.824059 [info] io thread id from application: ffff () is: 7fe7c1619700 TID: 47968
+2023-10-16 16:01:48.825205 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:01:48.824123 [info] main dispatch thread id from application: ffff () is: 7fe7c261b700 TID: 47966
+2023-10-16 16:01:48.825568 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:01:48.826110 [info] Application/Client 1001 is registering.
+2023-10-16 16:01:48.826694 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:01:48.827361 [info] Application/Client 1001 () is registered.
+2023-10-16 16:01:48.827628 [info] REGISTERED_ACK(1001)
+2023-10-16 16:01:48.827965 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:01:48.828113 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:01:48.828221 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:01:48.923439 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:01:48.924698 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:01:48.925563 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:01:48.928373 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:01:48.928956 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:01:48.929564 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:01:48.930120 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:01:48.930778 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:01:48.932788 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:01:53.169500 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:01:53.171548 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:01:53.172620 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:01:53.172840 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:01:53.173477 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:01:53.174651 [info] Exiting vsomeip application...
+2023-10-16 16:01:53.437592 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:01:53.442001 [info] Exiting vsomeip application...
+2023-10-16 16:02:48.249259 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:02:48.249602 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:02:48.249699 [info] Configuration module loaded.
+2023-10-16 16:02:48.249762 [info] Initializing vsomeip application "team07".
+2023-10-16 16:02:48.249889 [info] Instantiating routing manager [Host].
+2023-10-16 16:02:48.250132 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:02:48.250757 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:02:48.252710 [info] Service Discovery module loaded.
+2023-10-16 16:02:48.253000 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:02:48.253775 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:02:48.253666 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:02:48.254174 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:02:48.254846 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:02:48.255070 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:02:48.255036 [info] main dispatch thread id from application: 1000 (team07) is: 7f87d93ac700 TID: 48253
+2023-10-16 16:02:48.255117 [info] shutdown thread id from application: 1000 (team07) is: 7f87d8bab700 TID: 48254
+2023-10-16 16:02:48.255736 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:02:48.256228 [info] Watchdog is disabled!
+2023-10-16 16:02:48.256842 [info] io thread id from application: 1000 (team07) is: 7f87d9bad700 TID: 48252
+2023-10-16 16:02:48.257733 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:02:48.257664 [info] io thread id from application: 1000 (team07) is: 7f87cb7fe700 TID: 48256
+2023-10-16 16:02:48.258168 [info] Network interface "lo" state changed: up
+2023-10-16 16:02:50.942962 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:02:50.943328 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:02:50.943566 [info] Configuration module loaded.
+2023-10-16 16:02:50.943634 [info] Initializing vsomeip application "".
+2023-10-16 16:02:50.943745 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:02:50.943888 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:02:50.944038 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:02:50.945300 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:02:50.946034 [info] main dispatch thread id from application: ffff () is: 7fdc03d79700 TID: 48279
+2023-10-16 16:02:50.946250 [info] shutdown thread id from application: ffff () is: 7fdc03578700 TID: 48280
+2023-10-16 16:02:50.946714 [info] io thread id from application: ffff () is: 7fdc0457a700 TID: 48278
+2023-10-16 16:02:50.946737 [info] io thread id from application: ffff () is: 7fdc02d77700 TID: 48281
+2023-10-16 16:02:50.947783 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:02:50.947940 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:02:50.948169 [info] Application/Client 1001 is registering.
+2023-10-16 16:02:50.948693 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:02:50.949222 [info] Application/Client 1001 () is registered.
+2023-10-16 16:02:50.949534 [info] REGISTERED_ACK(1001)
+2023-10-16 16:02:50.949879 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:02:50.950049 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:02:50.950149 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:02:50.046102 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:02:50.047230 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:02:50.048009 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:02:50.050964 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:02:50.051505 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:02:50.052189 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:02:50.052712 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:02:50.053462 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:02:50.053846 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:02:58.258967 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:02:59.677356 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:02:59.680625 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:02:59.681793 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:02:59.682851 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:02:59.683781 [info] Exiting vsomeip application...
+2023-10-16 16:02:59.788248 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:02:59.133680 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:02:59.137508 [info] Exiting vsomeip application...
+2023-10-16 16:03:03.452368 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:03:03.452770 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:03:03.452906 [info] Configuration module loaded.
+2023-10-16 16:03:03.453022 [info] Initializing vsomeip application "team07".
+2023-10-16 16:03:03.453366 [info] Instantiating routing manager [Host].
+2023-10-16 16:03:03.453640 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:03:03.454397 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:03:03.456456 [info] Service Discovery module loaded.
+2023-10-16 16:03:03.456774 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:03:03.457842 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:03:03.459085 [info] main dispatch thread id from application: 1000 (team07) is: 7fe0b1120700 TID: 48461
+2023-10-16 16:03:03.458209 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:03:03.459167 [info] shutdown thread id from application: 1000 (team07) is: 7fe0b091f700 TID: 48462
+2023-10-16 16:03:03.460350 [info] Watchdog is disabled!
+2023-10-16 16:03:03.460696 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:03:03.461076 [info] io thread id from application: 1000 (team07) is: 7fe0b1921700 TID: 48460
+2023-10-16 16:03:03.461084 [info] io thread id from application: 1000 (team07) is: 7fe0a37fe700 TID: 48464
+2023-10-16 16:03:03.461078 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:03:03.461800 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:03:03.462008 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:03:03.462533 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:03:03.462515 [info] Network interface "lo" state changed: up
+2023-10-16 16:03:05.179897 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:03:05.180273 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:03:05.180387 [info] Configuration module loaded.
+2023-10-16 16:03:05.180491 [info] Initializing vsomeip application "".
+2023-10-16 16:03:05.180657 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:03:05.180885 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:03:05.181111 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:03:05.182027 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:03:05.182728 [info] main dispatch thread id from application: ffff () is: 7fdaa196b700 TID: 48487
+2023-10-16 16:03:05.182803 [info] shutdown thread id from application: ffff () is: 7fdaa116a700 TID: 48488
+2023-10-16 16:03:05.183223 [info] io thread id from application: ffff () is: 7fdaa216c700 TID: 48486
+2023-10-16 16:03:05.183253 [info] io thread id from application: ffff () is: 7fdaa0969700 TID: 48489
+2023-10-16 16:03:05.184436 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:03:05.184597 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:03:05.184837 [info] Application/Client 1001 is registering.
+2023-10-16 16:03:05.185533 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:03:05.186386 [info] Application/Client 1001 () is registered.
+2023-10-16 16:03:05.186730 [info] REGISTERED_ACK(1001)
+2023-10-16 16:03:05.187041 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:03:05.187205 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:03:05.187314 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:03:05.282870 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:03:05.284078 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:03:05.284485 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:03:05.287015 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:03:05.287506 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:03:05.288097 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:03:05.288583 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:03:05.289254 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:03:05.289511 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:03:13.462729 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:03:14.843983 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:03:14.848243 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:03:14.850741 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:03:14.851025 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:03:14.853073 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:03:14.856326 [info] Exiting vsomeip application...
+2023-10-16 16:03:16.026658 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:03:16.030654 [info] Exiting vsomeip application...
+2023-10-16 16:04:15.671826 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:04:15.672196 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:04:15.672305 [info] Configuration module loaded.
+2023-10-16 16:04:15.672393 [info] Initializing vsomeip application "team07".
+2023-10-16 16:04:15.672532 [info] Instantiating routing manager [Host].
+2023-10-16 16:04:15.672795 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:04:15.673409 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:04:15.675040 [info] Service Discovery module loaded.
+2023-10-16 16:04:15.675420 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:04:15.676326 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:04:15.676508 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:04:15.677593 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:04:15.677423 [info] main dispatch thread id from application: 1000 (team07) is: 7fd8fe7ac700 TID: 48785
+2023-10-16 16:04:15.677838 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:04:15.677468 [info] shutdown thread id from application: 1000 (team07) is: 7fd8fdfab700 TID: 48786
+2023-10-16 16:04:15.678541 [info] Watchdog is disabled!
+2023-10-16 16:04:15.679423 [info] io thread id from application: 1000 (team07) is: 7fd8fefad700 TID: 48784
+2023-10-16 16:04:15.678683 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:04:15.679912 [info] io thread id from application: 1000 (team07) is: 7fd8fcfa9700 TID: 48788
+2023-10-16 16:04:15.680436 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:04:15.680712 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:04:15.681050 [info] Network interface "lo" state changed: up
+2023-10-16 16:04:17.061451 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:04:17.062017 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:04:17.062155 [info] Configuration module loaded.
+2023-10-16 16:04:17.062259 [info] Initializing vsomeip application "".
+2023-10-16 16:04:17.062586 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:04:17.062802 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:04:17.063089 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:04:17.064667 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:04:17.066164 [info] shutdown thread id from application: ffff () is: 7f6a6e117700 TID: 48815
+2023-10-16 16:04:17.066550 [info] main dispatch thread id from application: ffff () is: 7f6a6e918700 TID: 48814
+2023-10-16 16:04:17.066856 [info] io thread id from application: ffff () is: 7f6a6f119700 TID: 48813
+2023-10-16 16:04:17.067771 [info] io thread id from application: ffff () is: 7f6a6d916700 TID: 48816
+2023-10-16 16:04:17.068589 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:04:17.068856 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:04:17.069104 [info] Application/Client 1001 is registering.
+2023-10-16 16:04:17.069759 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:04:17.070474 [info] Application/Client 1001 () is registered.
+2023-10-16 16:04:17.070714 [info] REGISTERED_ACK(1001)
+2023-10-16 16:04:17.071097 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:04:17.071260 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:04:17.071357 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:04:17.165587 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:04:17.167340 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:04:17.168233 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:04:17.171119 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:04:17.171662 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:04:17.172533 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:04:17.172882 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:04:17.173597 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:04:17.173878 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:04:25.681705 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:04:29.513152 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:04:29.515087 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:04:29.516009 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:04:29.516247 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:04:29.516831 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:04:29.517778 [info] Exiting vsomeip application...
+2023-10-16 16:04:35.682729 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:04:38.545331 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:04:38.545845 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:04:38.545970 [info] Configuration module loaded.
+2023-10-16 16:04:38.546070 [info] Initializing vsomeip application "".
+2023-10-16 16:04:38.546239 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:04:38.546442 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:04:38.546591 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:04:38.547498 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:04:38.548318 [info] shutdown thread id from application: ffff () is: 7fb8cac12700 TID: 49005
+2023-10-16 16:04:38.548907 [info] io thread id from application: ffff () is: 7fb8cbc14700 TID: 49003
+2023-10-16 16:04:38.548859 [info] main dispatch thread id from application: ffff () is: 7fb8cb413700 TID: 49004
+2023-10-16 16:04:38.548953 [info] io thread id from application: ffff () is: 7fb8ca411700 TID: 49006
+2023-10-16 16:04:38.549980 [info] Listening at /tmp/vsomeip-1002
+2023-10-16 16:04:38.550145 [info] Client 1002 () successfully connected to routing  ~> registering..
+2023-10-16 16:04:38.550384 [info] Application/Client 1002 is registering.
+2023-10-16 16:04:38.550862 [info] Client [1000] is connecting to [1002] at /tmp/vsomeip-1002
+2023-10-16 16:04:38.551530 [info] Application/Client 1002 () is registered.
+2023-10-16 16:04:38.551812 [info] REGISTERED_ACK(1002)
+2023-10-16 16:04:38.552168 [info] REGISTER EVENT(1002): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:04:38.552288 [info] REGISTER EVENT(1002): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:04:38.552396 [info] REGISTER EVENT(1002): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:04:38.648775 [info] REQUEST(1002): [1248.567c:1.4294967295]
+2023-10-16 16:04:38.650270 [info] ON_AVAILABLE(1002): [1248.567c:1.0]
+2023-10-16 16:04:38.650868 [info] Client [1002] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:04:38.653267 [info] SUBSCRIBE(1002): [1248.567c.80f6:80f6:1]
+2023-10-16 16:04:38.653661 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:04:38.654260 [info] SUBSCRIBE(1002): [1248.567c.80f8:80f8:1]
+2023-10-16 16:04:38.654682 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:04:38.655351 [info] SUBSCRIBE(1002): [1248.567c.80f7:80f7:1]
+2023-10-16 16:04:38.655587 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:04:45.683672 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:04:48.746815 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:04:48.750939 [info] Client [1002] is closing connection to [1000]
+2023-10-16 16:04:48.751124 [info] Client [1000] is closing connection to [1002]
+2023-10-16 16:04:48.751484 [info] Application/Client 1002: Reconnecting to routing manager.
+2023-10-16 16:04:48.751734 [info] Exiting vsomeip application...
+2023-10-16 16:04:48.752655 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:04:48.754038 [info] routing_manager_proxy::on_disconnect: Client 0x1002 calling host_->on_state with DEREGISTERED
+2023-10-16 16:04:48.755671 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:04:48.756507 [info] routing_manager_proxy::on_disconnect: Client 0x1002 calling host_->on_state with DEREGISTERED
+2023-10-16 16:04:48.757918 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:04:48.758894 [info] routing_manager_proxy::on_disconnect: Client 0x1002 calling host_->on_state with DEREGISTERED
+2023-10-16 16:04:49.194952 [info] Stopping vsomeip application "" (1002).
+2023-10-16 16:04:49.197434 [info] Exiting vsomeip application...
+2023-10-16 16:04:57.870166 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:04:57.870533 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:04:57.870674 [info] Configuration module loaded.
+2023-10-16 16:04:57.870797 [info] Initializing vsomeip application "team07".
+2023-10-16 16:04:57.870980 [info] Instantiating routing manager [Host].
+2023-10-16 16:04:57.871329 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:04:57.871986 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:04:57.873468 [info] Service Discovery module loaded.
+2023-10-16 16:04:57.873811 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:04:57.874798 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:04:57.874805 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:04:57.875258 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:04:57.875608 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:04:57.875908 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:04:57.875840 [info] main dispatch thread id from application: 1000 (team07) is: 7f828bfff700 TID: 49190
+2023-10-16 16:04:57.875891 [info] shutdown thread id from application: 1000 (team07) is: 7f828b7fe700 TID: 49191
+2023-10-16 16:04:57.876351 [info] Watchdog is disabled!
+2023-10-16 16:04:57.876529 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:04:57.877044 [info] io thread id from application: 1000 (team07) is: 7f8290fb5700 TID: 49189
+2023-10-16 16:04:57.877138 [info] io thread id from application: 1000 (team07) is: 7f828a7fc700 TID: 49193
+2023-10-16 16:04:57.877758 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:04:57.878162 [info] Network interface "lo" state changed: up
+2023-10-16 16:05:01.763541 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:05:01.763891 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:05:01.763991 [info] Configuration module loaded.
+2023-10-16 16:05:01.764065 [info] Initializing vsomeip application "".
+2023-10-16 16:05:01.764183 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:05:01.764367 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:05:01.764531 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:05:01.765408 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:05:01.766693 [info] shutdown thread id from application: ffff () is: 7f31977fe700 TID: 49242
+2023-10-16 16:05:01.767223 [info] io thread id from application: ffff () is: 7f319cdf4700 TID: 49240
+2023-10-16 16:05:01.767135 [info] main dispatch thread id from application: ffff () is: 7f3197fff700 TID: 49241
+2023-10-16 16:05:01.767252 [info] io thread id from application: ffff () is: 7f318ffff700 TID: 49243
+2023-10-16 16:05:01.768493 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:05:01.768669 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:05:01.768890 [info] Application/Client 1001 is registering.
+2023-10-16 16:05:01.769527 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:05:01.770212 [info] Application/Client 1001 () is registered.
+2023-10-16 16:05:01.770474 [info] REGISTERED_ACK(1001)
+2023-10-16 16:05:01.770849 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:05:01.770974 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:05:01.771073 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:05:01.866411 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:05:01.867930 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:05:01.868509 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:05:01.870998 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:05:01.871675 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:05:01.872488 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:05:01.872983 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:05:01.873888 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:05:01.874301 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:05:07.878241 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:05:11.152517 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:05:11.154346 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:05:11.155238 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:05:11.155460 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:05:11.155941 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:05:11.157103 [info] Exiting vsomeip application...
+2023-10-16 16:05:12.867611 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:05:12.870855 [info] Exiting vsomeip application...
+2023-10-16 16:05:44.421049 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:05:44.421394 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:05:44.421528 [info] Configuration module loaded.
+2023-10-16 16:05:44.421643 [info] Initializing vsomeip application "team07".
+2023-10-16 16:05:44.421822 [info] Instantiating routing manager [Host].
+2023-10-16 16:05:44.422072 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:05:44.422732 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:05:44.424436 [info] Service Discovery module loaded.
+2023-10-16 16:05:44.424705 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:05:44.425461 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:05:44.426263 [info] main dispatch thread id from application: 1000 (team07) is: 7f04f9051700 TID: 49605
+2023-10-16 16:05:44.425698 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:05:44.426641 [info] shutdown thread id from application: 1000 (team07) is: 7f04f8850700 TID: 49606
+2023-10-16 16:05:44.427293 [info] Watchdog is disabled!
+2023-10-16 16:05:44.427704 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:05:44.428350 [info] io thread id from application: 1000 (team07) is: 7f04f9852700 TID: 49604
+2023-10-16 16:05:44.428382 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:05:44.428351 [info] io thread id from application: 1000 (team07) is: 7f04eb7fe700 TID: 49608
+2023-10-16 16:05:44.428846 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:05:44.429069 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:05:44.429471 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:05:44.429531 [info] Network interface "lo" state changed: up
+2023-10-16 16:05:46.597429 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:05:46.597946 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:05:46.598155 [info] Configuration module loaded.
+2023-10-16 16:05:46.598226 [info] Initializing vsomeip application "".
+2023-10-16 16:05:46.598353 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:05:46.598644 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:05:46.598799 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:05:46.599661 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:05:46.600447 [info] main dispatch thread id from application: ffff () is: 7fa43b2eb700 TID: 49633
+2023-10-16 16:05:46.600595 [info] shutdown thread id from application: ffff () is: 7fa43aaea700 TID: 49634
+2023-10-16 16:05:46.601142 [info] io thread id from application: ffff () is: 7fa43baec700 TID: 49632
+2023-10-16 16:05:46.601140 [info] io thread id from application: ffff () is: 7fa43a2e9700 TID: 49635
+2023-10-16 16:05:46.602232 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:05:46.602414 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:05:46.602690 [info] Application/Client 1001 is registering.
+2023-10-16 16:05:46.603405 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:05:46.604094 [info] Application/Client 1001 () is registered.
+2023-10-16 16:05:46.604452 [info] REGISTERED_ACK(1001)
+2023-10-16 16:05:46.604932 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:05:46.605096 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:05:46.605236 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:05:46.700633 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:05:46.701808 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:05:46.702309 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:05:46.705131 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:05:46.705617 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:05:46.706335 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:05:46.706671 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:05:46.707260 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:05:46.707529 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:05:54.430369 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:06:04.431345 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:06:06.149408 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:06:06.155454 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:06:06.155886 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:06:06.156938 [info] Application/Client 1001: Reconnecting to routing manager.
+2023-10-16 16:06:06.159434 [info] Exiting vsomeip application...
+2023-10-16 16:06:06.158942 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:06:06.160033 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:06:07.161173 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:06:07.162717 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:06:07.163544 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:06:07.164543 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:06:07.369410 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:06:07.372611 [info] Exiting vsomeip application...
+2023-10-16 16:08:35.073973 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:08:35.074413 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:08:35.074524 [info] Configuration module loaded.
+2023-10-16 16:08:35.074626 [info] Initializing vsomeip application "team07".
+2023-10-16 16:08:35.074786 [info] Instantiating routing manager [Host].
+2023-10-16 16:08:35.075080 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:08:35.075961 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:08:35.078164 [info] Service Discovery module loaded.
+2023-10-16 16:08:35.078476 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:08:35.079737 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:08:35.079494 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:08:35.080245 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:08:35.080706 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:08:35.080823 [info] shutdown thread id from application: 1000 (team07) is: 7f4917fff700 TID: 50571
+2023-10-16 16:08:35.081351 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:08:35.081694 [info] main dispatch thread id from application: 1000 (team07) is: 7f491c9aa700 TID: 50570
+2023-10-16 16:08:35.081932 [info] Watchdog is disabled!
+2023-10-16 16:08:35.082310 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:08:35.082636 [info] io thread id from application: 1000 (team07) is: 7f491d1ab700 TID: 50569
+2023-10-16 16:08:35.082641 [info] io thread id from application: 1000 (team07) is: 7f4916ffd700 TID: 50573
+2023-10-16 16:08:35.083388 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:08:35.084039 [info] Network interface "lo" state changed: up
+2023-10-16 16:08:37.954859 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:08:37.956534 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:08:37.957004 [info] Configuration module loaded.
+2023-10-16 16:08:37.957613 [info] Initializing vsomeip application "".
+2023-10-16 16:08:37.958097 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:08:37.958700 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:08:37.959262 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:08:37.961930 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:08:37.964639 [info] shutdown thread id from application: ffff () is: 7f8851bd0700 TID: 50598
+2023-10-16 16:08:37.965007 [info] main dispatch thread id from application: ffff () is: 7f88523d1700 TID: 50597
+2023-10-16 16:08:37.966008 [info] io thread id from application: ffff () is: 7f8852bd2700 TID: 50596
+2023-10-16 16:08:37.966135 [info] io thread id from application: ffff () is: 7f88513cf700 TID: 50599
+2023-10-16 16:08:37.969652 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:08:37.970225 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:08:37.971026 [info] Application/Client 1001 is registering.
+2023-10-16 16:08:37.973133 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:08:37.976016 [info] Application/Client 1001 () is registered.
+2023-10-16 16:08:37.977513 [info] REGISTERED_ACK(1001)
+2023-10-16 16:08:37.978843 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:08:37.979282 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:08:37.979618 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:08:37.063453 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:08:37.064869 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:08:37.065427 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:08:37.068113 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:08:37.068519 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:08:37.069085 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:08:37.069388 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:08:37.069976 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:08:37.070193 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:08:39.026140 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:08:39.029523 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:08:39.030824 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:08:39.030972 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:08:39.031747 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:08:39.032599 [info] Exiting vsomeip application...
+2023-10-16 16:08:40.245827 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:08:40.250325 [info] Exiting vsomeip application...
+2023-10-16 16:09:30.977823 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:09:30.978227 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:09:30.978324 [info] Configuration module loaded.
+2023-10-16 16:09:30.978399 [info] Initializing vsomeip application "team07".
+2023-10-16 16:09:30.978534 [info] Instantiating routing manager [Host].
+2023-10-16 16:09:30.978787 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:09:30.979401 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:09:30.980830 [info] Service Discovery module loaded.
+2023-10-16 16:09:30.981113 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:09:30.982024 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:09:30.981810 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:09:30.982401 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:09:30.982738 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:09:30.982973 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:09:30.982965 [info] main dispatch thread id from application: 1000 (team07) is: 7f8fe9f2c700 TID: 50811
+2023-10-16 16:09:30.983073 [info] shutdown thread id from application: 1000 (team07) is: 7f8fe972b700 TID: 50812
+2023-10-16 16:09:30.983519 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:09:30.983903 [info] Watchdog is disabled!
+2023-10-16 16:09:30.984474 [info] io thread id from application: 1000 (team07) is: 7f8fea72d700 TID: 50810
+2023-10-16 16:09:30.984491 [info] io thread id from application: 1000 (team07) is: 7f8fdbfff700 TID: 50814
+2023-10-16 16:09:30.985206 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:09:30.985590 [info] Network interface "lo" state changed: up
+2023-10-16 16:09:32.026081 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:09:32.026457 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:09:32.026556 [info] Configuration module loaded.
+2023-10-16 16:09:32.026633 [info] Initializing vsomeip application "".
+2023-10-16 16:09:32.026761 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:09:32.026917 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:09:32.027032 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:09:32.027808 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:09:32.028667 [info] main dispatch thread id from application: ffff () is: 7f71fa57e700 TID: 50837
+2023-10-16 16:09:32.028631 [info] shutdown thread id from application: ffff () is: 7f71f9d7d700 TID: 50838
+2023-10-16 16:09:32.029046 [info] io thread id from application: ffff () is: 7f71fad7f700 TID: 50836
+2023-10-16 16:09:32.029078 [info] io thread id from application: ffff () is: 7f71f957c700 TID: 50839
+2023-10-16 16:09:32.030464 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:09:32.030617 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:09:32.030846 [info] Application/Client 1001 is registering.
+2023-10-16 16:09:32.031363 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:09:32.032095 [info] Application/Client 1001 () is registered.
+2023-10-16 16:09:32.032377 [info] REGISTERED_ACK(1001)
+2023-10-16 16:09:32.032768 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:09:32.032952 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:09:32.033117 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:09:32.128666 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:09:32.130039 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:09:32.130706 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:09:32.135420 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:09:32.135979 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:09:32.136694 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:09:32.137115 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:09:32.138063 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:09:32.138440 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:09:40.986036 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:09:45.616465 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:09:45.618694 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:09:45.620723 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:09:45.620908 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:09:45.621495 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:09:45.622472 [info] Exiting vsomeip application...
+2023-10-16 16:09:46.712148 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:09:46.716678 [info] Exiting vsomeip application...
+2023-10-16 16:10:21.175037 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:10:21.175392 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:10:21.175522 [info] Configuration module loaded.
+2023-10-16 16:10:21.175646 [info] Initializing vsomeip application "team07".
+2023-10-16 16:10:21.175820 [info] Instantiating routing manager [Host].
+2023-10-16 16:10:21.176126 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:10:21.176805 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:10:21.178346 [info] Service Discovery module loaded.
+2023-10-16 16:10:21.178655 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:10:21.179565 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:10:21.179558 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:10:21.180058 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:10:21.180360 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:10:21.180677 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:10:21.181363 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:10:21.181383 [info] Watchdog is disabled!
+2023-10-16 16:10:21.181350 [info] main dispatch thread id from application: 1000 (team07) is: 7f612df13700 TID: 51183
+2023-10-16 16:10:21.181974 [info] io thread id from application: 1000 (team07) is: 7f6127fff700 TID: 51186
+2023-10-16 16:10:21.181960 [info] io thread id from application: 1000 (team07) is: 7f612e714700 TID: 51182
+2023-10-16 16:10:21.181259 [info] shutdown thread id from application: 1000 (team07) is: 7f612d712700 TID: 51184
+2023-10-16 16:10:21.182934 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:10:21.183363 [info] Network interface "lo" state changed: up
+2023-10-16 16:10:23.824717 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:10:23.825109 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:10:23.825218 [info] Configuration module loaded.
+2023-10-16 16:10:23.825296 [info] Initializing vsomeip application "".
+2023-10-16 16:10:23.825432 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:10:23.825613 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:10:23.825777 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:10:23.826545 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:10:23.827393 [info] main dispatch thread id from application: ffff () is: 7f5c92fba700 TID: 51207
+2023-10-16 16:10:23.827492 [info] shutdown thread id from application: ffff () is: 7f5c927b9700 TID: 51208
+2023-10-16 16:10:23.827887 [info] io thread id from application: ffff () is: 7f5c937bb700 TID: 51206
+2023-10-16 16:10:23.827911 [info] io thread id from application: ffff () is: 7f5c91fb8700 TID: 51209
+2023-10-16 16:10:23.829182 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:10:23.829359 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:10:23.829604 [info] Application/Client 1001 is registering.
+2023-10-16 16:10:23.830322 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:10:23.831021 [info] Application/Client 1001 () is registered.
+2023-10-16 16:10:23.831312 [info] REGISTERED_ACK(1001)
+2023-10-16 16:10:23.831711 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:10:23.831887 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:10:23.832084 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:10:23.927714 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:10:23.929340 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:10:23.930092 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:10:23.932908 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:10:23.933353 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:10:23.933975 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:10:23.934381 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:10:23.935168 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:10:23.935584 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:10:31.183744 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:10:39.739887 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:10:39.742839 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:10:39.742959 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:10:39.743430 [info] Application/Client 1001: Reconnecting to routing manager.
+2023-10-16 16:10:39.743690 [info] Exiting vsomeip application...
+2023-10-16 16:10:39.744673 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:10:39.745525 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:10:39.746663 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:10:39.747741 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:10:39.394733 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:10:39.398565 [info] Exiting vsomeip application...
+2023-10-16 16:10:46.827067 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:10:46.827371 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:10:46.827469 [info] Configuration module loaded.
+2023-10-16 16:10:46.827533 [info] Initializing vsomeip application "team07".
+2023-10-16 16:10:46.827639 [info] Instantiating routing manager [Host].
+2023-10-16 16:10:46.827857 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:10:46.828406 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:10:46.830178 [info] Service Discovery module loaded.
+2023-10-16 16:10:46.830469 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:10:46.831298 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:10:46.831188 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:10:46.831910 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:10:46.832324 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:10:46.832439 [info] main dispatch thread id from application: 1000 (team07) is: 7f32b6df5700 TID: 51490
+2023-10-16 16:10:46.832667 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:10:46.832566 [info] shutdown thread id from application: 1000 (team07) is: 7f32b65f4700 TID: 51491
+2023-10-16 16:10:46.833303 [info] Watchdog is disabled!
+2023-10-16 16:10:46.833378 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:10:46.833718 [info] io thread id from application: 1000 (team07) is: 7f32b75f6700 TID: 51489
+2023-10-16 16:10:46.833731 [info] io thread id from application: 1000 (team07) is: 7f32b55f2700 TID: 51493
+2023-10-16 16:10:46.834407 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:10:46.834799 [info] Network interface "lo" state changed: up
+2023-10-16 16:10:49.535957 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:10:49.536307 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:10:49.536403 [info] Configuration module loaded.
+2023-10-16 16:10:49.536493 [info] Initializing vsomeip application "".
+2023-10-16 16:10:49.536615 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:10:49.536927 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:10:49.537067 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:10:49.537814 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:10:49.538608 [info] main dispatch thread id from application: ffff () is: 7f78c5708700 TID: 51515
+2023-10-16 16:10:49.539134 [info] io thread id from application: ffff () is: 7f78c5f09700 TID: 51514
+2023-10-16 16:10:49.539195 [info] io thread id from application: ffff () is: 7f78b7fff700 TID: 51517
+2023-10-16 16:10:49.538689 [info] shutdown thread id from application: ffff () is: 7f78c4f07700 TID: 51516
+2023-10-16 16:10:49.540209 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:10:49.540366 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:10:49.540746 [info] Application/Client 1001 is registering.
+2023-10-16 16:10:49.541228 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:10:49.542122 [info] Application/Client 1001 () is registered.
+2023-10-16 16:10:49.542909 [info] REGISTERED_ACK(1001)
+2023-10-16 16:10:49.543332 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:10:49.543505 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:10:49.543635 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:10:49.639059 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:10:49.641007 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:10:49.642177 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:10:49.645400 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:10:49.646120 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:10:49.646963 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:10:49.647416 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:10:49.647989 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:10:49.648307 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:10:56.836022 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:11:06.838791 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:11:16.839606 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:11:26.840951 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:11:36.841962 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:11:46.843789 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:11:56.845143 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:12:05.547423 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:12:05.553818 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:12:05.553749 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:12:05.555169 [info] Application/Client 1001: Reconnecting to routing manager.
+2023-10-16 16:12:05.556493 [info] Exiting vsomeip application...
+2023-10-16 16:12:05.557643 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:12:05.558542 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:12:05.559639 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:12:05.560588 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:12:05.561804 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:12:05.562632 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:12:05.563689 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:12:05.564433 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:12:06.565442 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:12:06.566365 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:12:08.568757 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:12:08.569735 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:12:08.616586 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:12:08.616907 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:12:08.617004 [info] Configuration module loaded.
+2023-10-16 16:12:08.617070 [info] Initializing vsomeip application "team07".
+2023-10-16 16:12:08.617177 [info] Instantiating routing manager [Host].
+2023-10-16 16:12:08.617405 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:12:08.617975 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:12:08.619501 [info] Service Discovery module loaded.
+2023-10-16 16:12:08.619787 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:12:08.620555 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:12:08.620681 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:12:08.621722 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:12:08.621565 [info] main dispatch thread id from application: 1000 (team07) is: 7f4e931db700 TID: 52164
+2023-10-16 16:12:08.621901 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:12:08.621772 [info] shutdown thread id from application: 1000 (team07) is: 7f4e929da700 TID: 52165
+2023-10-16 16:12:08.622291 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:12:08.622904 [info] Watchdog is disabled!
+2023-10-16 16:12:08.623037 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:12:08.623378 [info] io thread id from application: 1000 (team07) is: 7f4e939dc700 TID: 52163
+2023-10-16 16:12:08.623380 [info] io thread id from application: 1000 (team07) is: 7f4e919d8700 TID: 52167
+2023-10-16 16:12:08.624166 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:12:08.624631 [info] Network interface "lo" state changed: up
+2023-10-16 16:12:09.572985 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:12:09.573635 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:12:09.573872 [info] Application/Client 1001 is registering.
+2023-10-16 16:12:09.575513 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:12:09.576611 [info] Application/Client 1001 () is registered.
+2023-10-16 16:12:09.577362 [info] REGISTERED_ACK(1001)
+2023-10-16 16:12:09.577894 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:12:09.578205 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:12:09.578296 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:12:09.578383 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:12:09.578638 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:12:09.579221 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:12:09.579469 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:12:09.579937 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:12:09.579968 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:12:09.580149 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:12:09.580437 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:12:09.580688 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:12:10.449106 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:12:10.450945 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:12:10.451703 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:12:10.451837 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:12:10.452677 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:12:10.453769 [info] Exiting vsomeip application...
+2023-10-16 16:12:14.514149 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:12:14.514483 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:12:14.514579 [info] Configuration module loaded.
+2023-10-16 16:12:14.514653 [info] Initializing vsomeip application "".
+2023-10-16 16:12:14.514773 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:12:14.514919 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:12:14.515053 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:12:14.515816 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:12:14.516535 [info] main dispatch thread id from application: ffff () is: 7fed7b7ec700 TID: 52291
+2023-10-16 16:12:14.516980 [info] io thread id from application: ffff () is: 7fed7a7ea700 TID: 52293
+2023-10-16 16:12:14.516934 [info] io thread id from application: ffff () is: 7fed7bfed700 TID: 52290
+2023-10-16 16:12:14.516607 [info] shutdown thread id from application: ffff () is: 7fed7afeb700 TID: 52292
+2023-10-16 16:12:14.518748 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:12:14.518939 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:12:14.519202 [info] Application/Client 1001 is registering.
+2023-10-16 16:12:14.519614 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:12:14.520240 [info] Application/Client 1001 () is registered.
+2023-10-16 16:12:14.520509 [info] REGISTERED_ACK(1001)
+2023-10-16 16:12:14.520881 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:12:14.521042 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:12:14.521177 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:12:14.616968 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:12:14.618521 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:12:14.619207 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:12:14.621792 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:12:14.622112 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:12:14.622733 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:12:14.623233 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:12:14.623827 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:12:14.624076 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:12:14.624524 [info] Sending back cached event (1001): [1248.567c.80f6]
+2023-10-16 16:12:14.625208 [info] Sending back cached event (1001): [1248.567c.80f8]
+2023-10-16 16:12:14.625779 [info] Sending back cached event (1001): [1248.567c.80f7]
+2023-10-16 16:12:17.636268 [info] Sending back cached event (1001): [1248.567c.80f6]
+2023-10-16 16:12:17.641209 [info] Sending back cached event (1001): [1248.567c.80f8]
+2023-10-16 16:12:17.646359 [info] Sending back cached event (1001): [1248.567c.80f7]
+2023-10-16 16:12:18.625326 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:12:20.657925 [info] Sending back cached event (1001): [1248.567c.80f6]
+2023-10-16 16:12:20.663143 [info] Sending back cached event (1001): [1248.567c.80f8]
+2023-10-16 16:12:20.666598 [info] Sending back cached event (1001): [1248.567c.80f7]
+2023-10-16 16:12:23.672985 [info] Sending back cached event (1001): [1248.567c.80f6]
+2023-10-16 16:12:23.675112 [info] Sending back cached event (1001): [1248.567c.80f8]
+2023-10-16 16:12:23.676237 [info] Sending back cached event (1001): [1248.567c.80f7]
+2023-10-16 16:12:26.686627 [info] Sending back cached event (1001): [1248.567c.80f6]
+2023-10-16 16:12:26.690930 [info] Sending back cached event (1001): [1248.567c.80f8]
+2023-10-16 16:12:26.693662 [info] Sending back cached event (1001): [1248.567c.80f7]
+2023-10-16 16:12:28.626293 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:12:29.701974 [info] Sending back cached event (1001): [1248.567c.80f6]
+2023-10-16 16:12:29.703255 [info] Sending back cached event (1001): [1248.567c.80f8]
+2023-10-16 16:12:29.704053 [info] Sending back cached event (1001): [1248.567c.80f7]
+2023-10-16 16:12:32.710179 [info] Sending back cached event (1001): [1248.567c.80f6]
+2023-10-16 16:12:32.711545 [info] Sending back cached event (1001): [1248.567c.80f8]
+2023-10-16 16:12:32.712548 [info] Sending back cached event (1001): [1248.567c.80f7]
+2023-10-16 16:12:35.721105 [info] Sending back cached event (1001): [1248.567c.80f6]
+2023-10-16 16:12:35.723674 [info] Sending back cached event (1001): [1248.567c.80f8]
+2023-10-16 16:12:35.724865 [info] Sending back cached event (1001): [1248.567c.80f7]
+2023-10-16 16:12:38.730327 [info] Sending back cached event (1001): [1248.567c.80f6]
+2023-10-16 16:12:38.731908 [info] Sending back cached event (1001): [1248.567c.80f8]
+2023-10-16 16:12:38.733574 [info] Sending back cached event (1001): [1248.567c.80f7]
+2023-10-16 16:12:38.628151 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:12:41.741439 [info] Sending back cached event (1001): [1248.567c.80f6]
+2023-10-16 16:12:41.743333 [info] Sending back cached event (1001): [1248.567c.80f8]
+2023-10-16 16:12:41.744283 [info] Sending back cached event (1001): [1248.567c.80f7]
+2023-10-16 16:12:43.017587 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:12:43.020856 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:12:43.022060 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:12:43.021968 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:12:43.022850 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:12:43.023852 [info] Exiting vsomeip application...
+2023-10-16 16:12:44.248065 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:12:44.252254 [info] Exiting vsomeip application...
+2023-10-16 16:13:53.050376 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:13:53.051420 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:13:53.051762 [info] Configuration module loaded.
+2023-10-16 16:13:53.051986 [info] Initializing vsomeip application "team07".
+2023-10-16 16:13:53.052287 [info] Instantiating routing manager [Host].
+2023-10-16 16:13:53.052852 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:13:53.054280 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:13:53.058331 [info] Service Discovery module loaded.
+2023-10-16 16:13:53.059393 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:13:53.061593 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:13:53.061490 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:13:53.062747 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:13:53.064330 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:13:53.064727 [info] main dispatch thread id from application: 1000 (team07) is: 7f2b3b836700 TID: 52867
+2023-10-16 16:13:53.065324 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:13:53.065050 [info] shutdown thread id from application: 1000 (team07) is: 7f2b3b035700 TID: 52868
+2023-10-16 16:13:53.067165 [info] Watchdog is disabled!
+2023-10-16 16:13:53.067795 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:13:53.069506 [info] io thread id from application: 1000 (team07) is: 7f2b3c037700 TID: 52866
+2023-10-16 16:13:53.069528 [info] io thread id from application: 1000 (team07) is: 7f2b3a033700 TID: 52870
+2023-10-16 16:13:53.071610 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:13:53.072622 [info] Network interface "lo" state changed: up
+2023-10-16 16:13:57.522978 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:13:57.524081 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:13:57.524181 [info] Configuration module loaded.
+2023-10-16 16:13:57.524260 [info] Initializing vsomeip application "".
+2023-10-16 16:13:57.524377 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:13:57.524559 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:13:57.524709 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:13:57.525685 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:13:57.526584 [info] shutdown thread id from application: ffff () is: 7f90296ca700 TID: 52905
+2023-10-16 16:13:57.527199 [info] io thread id from application: ffff () is: 7f902a6cc700 TID: 52903
+2023-10-16 16:13:57.527011 [info] main dispatch thread id from application: ffff () is: 7f9029ecb700 TID: 52904
+2023-10-16 16:13:57.527274 [info] io thread id from application: ffff () is: 7f9028ec9700 TID: 52906
+2023-10-16 16:13:57.529096 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:13:57.529275 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:13:57.529638 [info] Application/Client 1001 is registering.
+2023-10-16 16:13:57.530334 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:13:57.531386 [info] Application/Client 1001 () is registered.
+2023-10-16 16:13:57.532310 [info] REGISTERED_ACK(1001)
+2023-10-16 16:13:57.532750 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:13:57.532943 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:13:57.533098 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:13:57.626961 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:13:57.628110 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:13:57.628996 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:13:57.631179 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:13:57.631661 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:13:57.632624 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:13:57.633013 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:13:57.633753 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:13:57.634046 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:14:03.072290 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:14:13.073194 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:14:23.074225 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:14:33.075339 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:14:43.077170 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:14:53.078400 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:15:02.660026 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:15:02.662030 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:15:02.664338 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:15:02.664342 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:15:02.665635 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:15:02.666794 [info] Exiting vsomeip application...
+2023-10-16 16:15:02.158393 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:15:02.161383 [info] Exiting vsomeip application...
+2023-10-16 16:15:46.354570 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:15:46.354968 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:15:46.355102 [info] Configuration module loaded.
+2023-10-16 16:15:46.355446 [info] Initializing vsomeip application "team07".
+2023-10-16 16:15:46.355631 [info] Instantiating routing manager [Host].
+2023-10-16 16:15:46.356012 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:15:46.356918 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:15:46.358806 [info] Service Discovery module loaded.
+2023-10-16 16:15:46.359164 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:15:46.360176 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:15:46.360834 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:15:46.361072 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:15:46.360866 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:15:46.361387 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:15:46.362484 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:15:46.362244 [info] shutdown thread id from application: 1000 (team07) is: 7fcc6779d700 TID: 53691
+2023-10-16 16:15:46.362588 [info] main dispatch thread id from application: 1000 (team07) is: 7fcc67f9e700 TID: 53690
+2023-10-16 16:15:46.363255 [info] Watchdog is disabled!
+2023-10-16 16:15:46.364231 [info] io thread id from application: 1000 (team07) is: 7fcc6879f700 TID: 53689
+2023-10-16 16:15:46.364236 [info] io thread id from application: 1000 (team07) is: 7fcc6679b700 TID: 53693
+2023-10-16 16:15:46.365312 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:15:46.365840 [info] Network interface "lo" state changed: up
+2023-10-16 16:15:48.933136 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:15:48.933494 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:15:48.933619 [info] Configuration module loaded.
+2023-10-16 16:15:48.933690 [info] Initializing vsomeip application "".
+2023-10-16 16:15:48.933822 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:15:48.934048 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:15:48.934223 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:15:48.935223 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:15:48.936035 [info] main dispatch thread id from application: ffff () is: 7fcd8b639700 TID: 53722
+2023-10-16 16:15:48.936262 [info] shutdown thread id from application: ffff () is: 7fcd8ae38700 TID: 53723
+2023-10-16 16:15:48.936751 [info] io thread id from application: ffff () is: 7fcd8be3a700 TID: 53721
+2023-10-16 16:15:48.936870 [info] io thread id from application: ffff () is: 7fcd8a637700 TID: 53724
+2023-10-16 16:15:48.938240 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:15:48.938530 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:15:48.938952 [info] Application/Client 1001 is registering.
+2023-10-16 16:15:48.939680 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:15:48.940485 [info] Application/Client 1001 () is registered.
+2023-10-16 16:15:48.940724 [info] REGISTERED_ACK(1001)
+2023-10-16 16:15:48.940977 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:15:48.941117 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:15:48.941217 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:15:48.036194 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:15:48.037751 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:15:48.039291 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:15:48.044014 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:15:48.044553 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:15:48.045142 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:15:48.045423 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:15:48.046040 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:15:48.046536 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:15:56.366691 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:16:06.368290 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:16:12.428981 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:16:12.430818 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:16:12.431654 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:16:12.431863 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:16:12.432394 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:16:12.433265 [info] Exiting vsomeip application...
+2023-10-16 16:16:15.384023 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:16:15.388322 [info] Exiting vsomeip application...
+2023-10-16 16:16:18.294892 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:16:18.295235 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:16:18.295333 [info] Configuration module loaded.
+2023-10-16 16:16:18.295407 [info] Initializing vsomeip application "team07".
+2023-10-16 16:16:18.295519 [info] Instantiating routing manager [Host].
+2023-10-16 16:16:18.295739 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:16:18.296298 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:16:18.297614 [info] Service Discovery module loaded.
+2023-10-16 16:16:18.297863 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:16:18.298703 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:16:18.298626 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:16:18.299243 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:16:18.299616 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:16:18.299887 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:16:18.299751 [info] main dispatch thread id from application: 1000 (team07) is: 7f01b51d3700 TID: 54002
+2023-10-16 16:16:18.299848 [info] shutdown thread id from application: 1000 (team07) is: 7f01b49d2700 TID: 54003
+2023-10-16 16:16:18.300299 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:16:18.300818 [info] Watchdog is disabled!
+2023-10-16 16:16:18.301517 [info] io thread id from application: 1000 (team07) is: 7f01b59d4700 TID: 54001
+2023-10-16 16:16:18.301529 [info] io thread id from application: 1000 (team07) is: 7f01a77fe700 TID: 54005
+2023-10-16 16:16:18.302522 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:16:18.303204 [info] Network interface "lo" state changed: up
+2023-10-16 16:16:20.544044 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:16:20.544406 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:16:20.544498 [info] Configuration module loaded.
+2023-10-16 16:16:20.544572 [info] Initializing vsomeip application "".
+2023-10-16 16:16:20.544686 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:16:20.544839 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:16:20.544969 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:16:20.545630 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:16:20.546372 [info] shutdown thread id from application: ffff () is: 7fdd05133700 TID: 54029
+2023-10-16 16:16:20.546482 [info] main dispatch thread id from application: ffff () is: 7fdd05934700 TID: 54028
+2023-10-16 16:16:20.546785 [info] io thread id from application: ffff () is: 7fdd06135700 TID: 54027
+2023-10-16 16:16:20.546810 [info] io thread id from application: ffff () is: 7fdd04932700 TID: 54030
+2023-10-16 16:16:20.548160 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:16:20.548322 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:16:20.548541 [info] Application/Client 1001 is registering.
+2023-10-16 16:16:20.549158 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:16:20.549772 [info] Application/Client 1001 () is registered.
+2023-10-16 16:16:20.550053 [info] REGISTERED_ACK(1001)
+2023-10-16 16:16:20.550319 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:16:20.550465 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:16:20.550568 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:16:20.647688 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:16:20.649525 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:16:20.651299 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:16:20.654381 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:16:20.654927 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:16:20.655656 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:16:20.656064 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:16:20.656808 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:16:20.657087 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:16:28.303409 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:16:32.534690 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:16:32.540497 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:16:32.540678 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:16:32.541337 [info] Application/Client 1001: Reconnecting to routing manager.
+2023-10-16 16:16:32.542496 [info] Exiting vsomeip application...
+2023-10-16 16:16:32.542848 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:16:32.544137 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:16:32.545072 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:16:32.546943 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:16:32.548336 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:16:32.549959 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:16:32.531925 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:16:32.534568 [info] Exiting vsomeip application...
+2023-10-16 16:16:47.236100 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:16:47.236453 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:16:47.236547 [info] Configuration module loaded.
+2023-10-16 16:16:47.236628 [info] Initializing vsomeip application "team07".
+2023-10-16 16:16:47.236743 [info] Instantiating routing manager [Host].
+2023-10-16 16:16:47.236903 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:16:47.237493 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:16:47.239092 [info] Service Discovery module loaded.
+2023-10-16 16:16:47.239330 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:16:47.240280 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:16:47.240177 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:16:47.240655 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:16:47.241131 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:16:47.241226 [info] main dispatch thread id from application: 1000 (team07) is: 7fb4c1960700 TID: 54317
+2023-10-16 16:16:47.241384 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:16:47.242000 [info] shutdown thread id from application: 1000 (team07) is: 7fb4c115f700 TID: 54318
+2023-10-16 16:16:47.242241 [info] Watchdog is disabled!
+2023-10-16 16:16:47.242303 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:16:47.242788 [info] io thread id from application: 1000 (team07) is: 7fb4c2161700 TID: 54316
+2023-10-16 16:16:47.242827 [info] io thread id from application: 1000 (team07) is: 7fb4b3fff700 TID: 54320
+2023-10-16 16:16:47.243651 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:16:47.244118 [info] Network interface "lo" state changed: up
+2023-10-16 16:16:50.828652 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:16:50.829220 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:16:50.829321 [info] Configuration module loaded.
+2023-10-16 16:16:50.829399 [info] Initializing vsomeip application "".
+2023-10-16 16:16:50.829543 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:16:50.829775 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:16:50.829915 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:16:50.830675 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:16:50.831554 [info] main dispatch thread id from application: ffff () is: 7f67ae1f6700 TID: 54353
+2023-10-16 16:16:50.831902 [info] shutdown thread id from application: ffff () is: 7f67ad9f5700 TID: 54354
+2023-10-16 16:16:50.832499 [info] io thread id from application: ffff () is: 7f67ae9f7700 TID: 54352
+2023-10-16 16:16:50.832520 [info] io thread id from application: ffff () is: 7f67ad1f4700 TID: 54355
+2023-10-16 16:16:50.833780 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:16:50.833983 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:16:50.834250 [info] Application/Client 1001 is registering.
+2023-10-16 16:16:50.834952 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:16:50.835668 [info] Application/Client 1001 () is registered.
+2023-10-16 16:16:50.836001 [info] REGISTERED_ACK(1001)
+2023-10-16 16:16:50.836393 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:16:50.836592 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:16:50.836766 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:16:50.932053 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:16:50.933631 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:16:50.934624 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:16:50.937484 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:16:50.937992 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:16:50.938902 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:16:50.939495 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:16:50.940201 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:16:50.940536 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:16:57.244351 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:17:07.245655 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:17:17.246826 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:17:27.248667 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:17:37.249518 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:17:39.480561 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:17:39.484962 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:17:39.485467 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:17:39.486145 [info] Application/Client 1001: Reconnecting to routing manager.
+2023-10-16 16:17:39.486753 [info] Exiting vsomeip application...
+2023-10-16 16:17:40.487783 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:17:40.488657 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:17:40.489419 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:17:40.490297 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:17:40.491144 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:17:40.492102 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:17:40.493708 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:17:40.494643 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:17:41.495493 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:17:41.496331 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:17:42.247650 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:17:42.248019 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:17:42.248111 [info] Configuration module loaded.
+2023-10-16 16:17:42.248185 [info] Initializing vsomeip application "team07".
+2023-10-16 16:17:42.248303 [info] Instantiating routing manager [Host].
+2023-10-16 16:17:42.248579 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:17:42.249128 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:17:42.250597 [info] Service Discovery module loaded.
+2023-10-16 16:17:42.250875 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:17:42.251553 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:17:42.251706 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:17:42.252503 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:17:42.252639 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:17:42.252450 [info] shutdown thread id from application: 1000 (team07) is: 7f0d47fff700 TID: 54780
+2023-10-16 16:17:42.252494 [info] main dispatch thread id from application: 1000 (team07) is: 7f0d4cf7b700 TID: 54779
+2023-10-16 16:17:42.252906 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:17:42.253496 [info] Watchdog is disabled!
+2023-10-16 16:17:42.253921 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:17:42.254009 [info] io thread id from application: 1000 (team07) is: 7f0d4d77c700 TID: 54778
+2023-10-16 16:17:42.254015 [info] io thread id from application: 1000 (team07) is: 7f0d46ffd700 TID: 54782
+2023-10-16 16:17:42.254945 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:17:42.255326 [info] Network interface "lo" state changed: up
+2023-10-16 16:17:43.499753 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:17:43.500302 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:17:43.500632 [info] Application/Client 1001 is registering.
+2023-10-16 16:17:43.501535 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:17:43.502386 [info] Application/Client 1001 () is registered.
+2023-10-16 16:17:43.503003 [info] REGISTERED_ACK(1001)
+2023-10-16 16:17:43.503408 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:17:43.503552 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:17:43.503673 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:17:43.503790 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:17:43.504090 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:17:43.504588 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:17:43.504680 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:17:43.505071 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:17:43.505042 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:17:43.505336 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:17:43.505449 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:17:43.505657 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:17:44.216753 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:17:44.218982 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:17:44.220202 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:17:44.220594 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:17:44.221994 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:17:44.222874 [info] Exiting vsomeip application...
+2023-10-16 16:17:45.177897 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:17:45.178218 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:17:45.178310 [info] Configuration module loaded.
+2023-10-16 16:17:45.178382 [info] Initializing vsomeip application "".
+2023-10-16 16:17:45.178514 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:17:45.178686 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:17:45.178823 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:17:45.179503 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:17:45.180657 [info] shutdown thread id from application: ffff () is: 7f51437fe700 TID: 54821
+2023-10-16 16:17:45.181159 [info] io thread id from application: ffff () is: 7f5148aa4700 TID: 54819
+2023-10-16 16:17:45.181180 [info] io thread id from application: ffff () is: 7f5142ffd700 TID: 54822
+2023-10-16 16:17:45.181275 [info] main dispatch thread id from application: ffff () is: 7f5143fff700 TID: 54820
+2023-10-16 16:17:45.182520 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:17:45.182842 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:17:45.183158 [info] Application/Client 1001 is registering.
+2023-10-16 16:17:45.183560 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:17:45.184161 [info] Application/Client 1001 () is registered.
+2023-10-16 16:17:45.184378 [info] REGISTERED_ACK(1001)
+2023-10-16 16:17:45.184863 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:17:45.185002 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:17:45.185122 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:17:45.280279 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:17:45.281735 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:17:45.282499 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:17:45.285395 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:17:45.285893 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:17:45.286734 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:17:45.287096 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:17:45.287795 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:17:45.288340 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:17:48.729943 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:17:48.732216 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:17:48.733500 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:17:48.734466 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:17:48.735625 [info] Exiting vsomeip application...
+2023-10-16 16:17:48.834544 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:17:49.940185 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:17:49.944081 [info] Exiting vsomeip application...
+2023-10-16 16:18:21.051941 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:18:21.053083 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:18:21.053595 [info] Configuration module loaded.
+2023-10-16 16:18:21.054004 [info] Initializing vsomeip application "team07".
+2023-10-16 16:18:21.054484 [info] Instantiating routing manager [Host].
+2023-10-16 16:18:21.055336 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:18:21.057064 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:18:21.061641 [info] Service Discovery module loaded.
+2023-10-16 16:18:21.062802 [info] Application(team07, 1000) is initialized (11, 100).
+2023-10-16 16:18:21.065383 [info] Starting vsomeip application "team07" (1000) using 2 threads I/O nice 255
+2023-10-16 16:18:21.066064 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:18:21.067503 [info] main dispatch thread id from application: 1000 (team07) is: 7f8a2e0b8700 TID: 54956
+2023-10-16 16:18:21.068110 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:18:21.067832 [info] shutdown thread id from application: 1000 (team07) is: 7f8a2d8b7700 TID: 54957
+2023-10-16 16:18:21.070134 [info] Watchdog is disabled!
+2023-10-16 16:18:21.070301 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:18:21.072545 [info] io thread id from application: 1000 (team07) is: 7f8a2e8b9700 TID: 54955
+2023-10-16 16:18:21.072962 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:18:21.072572 [info] io thread id from application: 1000 (team07) is: 7f8a2c8b5700 TID: 54959
+2023-10-16 16:18:21.074579 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:18:21.074666 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:18:21.075765 [info] Network interface "lo" state changed: up
+2023-10-16 16:18:24.503457 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:18:24.504324 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:18:24.504415 [info] Configuration module loaded.
+2023-10-16 16:18:24.504484 [info] Initializing vsomeip application "".
+2023-10-16 16:18:24.504761 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:18:24.504936 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:18:24.505043 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:18:24.505651 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:18:24.506551 [info] main dispatch thread id from application: ffff () is: 7f994bfff700 TID: 54985
+2023-10-16 16:18:24.506756 [info] shutdown thread id from application: ffff () is: 7f994b7fe700 TID: 54986
+2023-10-16 16:18:24.507201 [info] io thread id from application: ffff () is: 7f9950d97700 TID: 54984
+2023-10-16 16:18:24.507214 [info] io thread id from application: ffff () is: 7f994affd700 TID: 54987
+2023-10-16 16:18:24.508334 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:18:24.508494 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:18:24.508680 [info] Application/Client 1001 is registering.
+2023-10-16 16:18:24.509723 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:18:24.510415 [info] Application/Client 1001 () is registered.
+2023-10-16 16:18:24.510597 [info] REGISTERED_ACK(1001)
+2023-10-16 16:18:24.510929 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:18:24.511041 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:18:24.511137 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:18:24.606797 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:18:24.607846 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:18:24.609137 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:18:24.612388 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:18:24.613202 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:18:24.614637 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:18:24.615306 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:18:24.616096 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:18:24.616567 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:18:28.446523 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:18:28.449900 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:18:28.451780 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:18:28.452284 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:18:28.453145 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:18:28.455316 [info] Exiting vsomeip application...
+2023-10-16 16:18:28.811995 [info] Stopping vsomeip application "team07" (1000).
+2023-10-16 16:18:28.816711 [info] Exiting vsomeip application...
+2023-10-16 16:18:41.105279 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:18:41.105621 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:18:41.105780 [info] Configuration module loaded.
+2023-10-16 16:18:41.105903 [info] Initializing vsomeip application "".
+2023-10-16 16:18:41.106081 [info] Instantiating routing manager [Host].
+2023-10-16 16:18:41.106366 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:18:41.107035 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:18:41.108517 [info] Service Discovery module loaded.
+2023-10-16 16:18:41.108844 [info] Application(unnamed, 1000) is initialized (11, 100).
+2023-10-16 16:18:41.109587 [info] Starting vsomeip application "" (1000) using 2 threads I/O nice 255
+2023-10-16 16:18:41.109824 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:18:41.110409 [info] main dispatch thread id from application: 1000 () is: 7f39d9b67700 TID: 55171
+2023-10-16 16:18:41.110620 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:18:41.110536 [info] shutdown thread id from application: 1000 () is: 7f39d9366700 TID: 55172
+2023-10-16 16:18:41.111021 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:18:41.111346 [info] Watchdog is disabled!
+2023-10-16 16:18:41.111645 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:18:41.111876 [info] io thread id from application: 1000 () is: 7f39da368700 TID: 55170
+2023-10-16 16:18:41.111887 [info] io thread id from application: 1000 () is: 7f39cbfff700 TID: 55174
+2023-10-16 16:18:41.112197 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:18:41.112600 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:18:41.112957 [info] Network interface "lo" state changed: up
+2023-10-16 16:18:43.013150 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:18:43.013644 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:18:43.013741 [info] Configuration module loaded.
+2023-10-16 16:18:43.013823 [info] Initializing vsomeip application "".
+2023-10-16 16:18:43.014037 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:18:43.014195 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:18:43.014346 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:18:43.015305 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:18:43.016039 [info] main dispatch thread id from application: ffff () is: 7fba5f577700 TID: 55190
+2023-10-16 16:18:43.016313 [info] shutdown thread id from application: ffff () is: 7fba5ed76700 TID: 55191
+2023-10-16 16:18:43.016736 [info] io thread id from application: ffff () is: 7fba5fd78700 TID: 55189
+2023-10-16 16:18:43.016747 [info] io thread id from application: ffff () is: 7fba5e575700 TID: 55192
+2023-10-16 16:18:43.017910 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:18:43.018257 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:18:43.018509 [info] Application/Client 1001 is registering.
+2023-10-16 16:18:43.019357 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:18:43.020233 [info] Application/Client 1001 () is registered.
+2023-10-16 16:18:43.020495 [info] REGISTERED_ACK(1001)
+2023-10-16 16:18:43.020829 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:18:43.021012 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:18:43.021147 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:18:43.116404 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:18:43.118635 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:18:43.119375 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:18:43.122710 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:18:43.123128 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:18:43.123837 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:18:43.124217 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:18:43.124900 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:18:43.125273 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:18:45.529453 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:18:45.532915 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:18:45.535080 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:18:45.535372 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:18:45.537443 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:18:45.539872 [info] Exiting vsomeip application...
+2023-10-16 16:18:47.570849 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:18:47.571711 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:18:47.571981 [info] Configuration module loaded.
+2023-10-16 16:18:47.572277 [info] Initializing vsomeip application "".
+2023-10-16 16:18:47.572789 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:18:47.573362 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:18:47.573831 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:18:47.576202 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:18:47.578410 [info] main dispatch thread id from application: ffff () is: 7f9d0d67e700 TID: 55238
+2023-10-16 16:18:47.578585 [info] shutdown thread id from application: ffff () is: 7f9d0ce7d700 TID: 55239
+2023-10-16 16:18:47.579821 [info] io thread id from application: ffff () is: 7f9d0de7f700 TID: 55237
+2023-10-16 16:18:47.579995 [info] io thread id from application: ffff () is: 7f9cfffff700 TID: 55240
+2023-10-16 16:18:47.583618 [info] Listening at /tmp/vsomeip-1002
+2023-10-16 16:18:47.584227 [info] Client 1002 () successfully connected to routing  ~> registering..
+2023-10-16 16:18:47.585108 [info] Application/Client 1002 is registering.
+2023-10-16 16:18:47.586405 [info] Client [1000] is connecting to [1002] at /tmp/vsomeip-1002
+2023-10-16 16:18:47.587756 [info] Application/Client 1002 () is registered.
+2023-10-16 16:18:47.588109 [info] REGISTERED_ACK(1002)
+2023-10-16 16:18:47.588591 [info] REGISTER EVENT(1002): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:18:47.588789 [info] REGISTER EVENT(1002): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:18:47.588960 [info] REGISTER EVENT(1002): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:18:47.677706 [info] REQUEST(1002): [1248.567c:1.4294967295]
+2023-10-16 16:18:47.678909 [info] ON_AVAILABLE(1002): [1248.567c:1.0]
+2023-10-16 16:18:47.679789 [info] Client [1002] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:18:47.682575 [info] SUBSCRIBE(1002): [1248.567c.80f6:80f6:1]
+2023-10-16 16:18:47.682834 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:18:47.683370 [info] SUBSCRIBE(1002): [1248.567c.80f8:80f8:1]
+2023-10-16 16:18:47.683756 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:18:47.684271 [info] SUBSCRIBE(1002): [1248.567c.80f7:80f7:1]
+2023-10-16 16:18:47.684523 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:18:51.113436 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:18:53.747543 [info] Stopping vsomeip application "" (1002).
+2023-10-16 16:18:53.751053 [info] Application/Client 1002 is deregistering.
+2023-10-16 16:18:53.753284 [info] Application/Client 1002 () is deregistered.
+2023-10-16 16:18:53.755348 [info] Client [1002] is closing connection to [1000]
+2023-10-16 16:18:53.757842 [info] Exiting vsomeip application...
+2023-10-16 16:18:53.854554 [info] Client [1000] is closing connection to [1002]
+2023-10-16 16:18:55.591347 [info] Stopping vsomeip application "" (1000).
+2023-10-16 16:18:55.594781 [info] Exiting vsomeip application...
+2023-10-16 16:20:34.148824 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:20:34.149221 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:20:34.149416 [info] Configuration module loaded.
+2023-10-16 16:20:34.149517 [info] Initializing vsomeip application "".
+2023-10-16 16:20:34.149693 [info] Instantiating routing manager [Host].
+2023-10-16 16:20:34.150072 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:20:34.150746 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:20:34.152714 [info] Service Discovery module loaded.
+2023-10-16 16:20:34.153193 [info] Application(unnamed, 1000) is initialized (11, 100).
+2023-10-16 16:20:34.154237 [info] Starting vsomeip application "" (1000) using 2 threads I/O nice 255
+2023-10-16 16:20:34.154389 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:20:34.154981 [info] main dispatch thread id from application: 1000 () is: 7f4e0ffff700 TID: 55638
+2023-10-16 16:20:34.155149 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:20:34.155076 [info] shutdown thread id from application: 1000 () is: 7f4e0f7fe700 TID: 55639
+2023-10-16 16:20:34.155569 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:20:34.155973 [info] Watchdog is disabled!
+2023-10-16 16:20:34.156056 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:20:34.156391 [info] io thread id from application: 1000 () is: 7f4e14fe5700 TID: 55637
+2023-10-16 16:20:34.156426 [info] io thread id from application: 1000 () is: 7f4e0e7fc700 TID: 55641
+2023-10-16 16:20:34.156692 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:20:34.157409 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:20:34.157794 [info] Network interface "lo" state changed: up
+2023-10-16 16:20:36.757385 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:20:36.758543 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:20:36.758840 [info] Configuration module loaded.
+2023-10-16 16:20:36.759102 [info] Initializing vsomeip application "".
+2023-10-16 16:20:36.759448 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:20:36.759919 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:20:36.760298 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:20:36.762912 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:20:36.765164 [info] main dispatch thread id from application: ffff () is: 7f76f0856700 TID: 55663
+2023-10-16 16:20:36.765017 [info] shutdown thread id from application: ffff () is: 7f76ebfff700 TID: 55664
+2023-10-16 16:20:36.766329 [info] io thread id from application: ffff () is: 7f76f1057700 TID: 55662
+2023-10-16 16:20:36.766353 [info] io thread id from application: ffff () is: 7f76eb7fe700 TID: 55665
+2023-10-16 16:20:36.770345 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:20:36.770832 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:20:36.771326 [info] Application/Client 1001 is registering.
+2023-10-16 16:20:36.772832 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:20:36.775180 [info] Application/Client 1001 () is registered.
+2023-10-16 16:20:36.776039 [info] REGISTERED_ACK(1001)
+2023-10-16 16:20:36.776865 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:20:36.777281 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:20:36.777633 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:20:36.864497 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:20:36.865787 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:20:36.866340 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:20:36.868709 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:20:36.869221 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:20:36.869901 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:20:36.870325 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:20:36.870740 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:20:36.871122 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:20:41.860748 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:20:41.865061 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:20:41.867217 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:20:41.867506 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:20:41.869312 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:20:41.871516 [info] Exiting vsomeip application...
+2023-10-16 16:20:42.031138 [info] Stopping vsomeip application "" (1000).
+2023-10-16 16:20:42.033971 [info] Exiting vsomeip application...
+2023-10-16 16:22:26.259154 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:22:26.259521 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:22:26.259616 [info] Configuration module loaded.
+2023-10-16 16:22:26.259687 [info] Initializing vsomeip application "".
+2023-10-16 16:22:26.259812 [info] Instantiating routing manager [Host].
+2023-10-16 16:22:26.260043 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:22:26.260706 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:22:26.262337 [info] Service Discovery module loaded.
+2023-10-16 16:22:26.262627 [info] Application(unnamed, 1000) is initialized (11, 100).
+2023-10-16 16:22:26.263389 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:22:26.263285 [info] Starting vsomeip application "" (1000) using 2 threads I/O nice 255
+2023-10-16 16:22:26.263734 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:22:26.264167 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:22:26.264551 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:22:26.264402 [info] shutdown thread id from application: 1000 () is: 7f52fbfff700 TID: 55999
+2023-10-16 16:22:26.264277 [info] main dispatch thread id from application: 1000 () is: 7f5300f96700 TID: 55998
+2023-10-16 16:22:26.265150 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:22:26.265225 [info] Watchdog is disabled!
+2023-10-16 16:22:26.265888 [info] io thread id from application: 1000 () is: 7f5301797700 TID: 55997
+2023-10-16 16:22:26.265919 [info] io thread id from application: 1000 () is: 7f52faffd700 TID: 56001
+2023-10-16 16:22:26.266551 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:22:26.267165 [info] Network interface "lo" state changed: up
+2023-10-16 16:22:28.921674 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:22:28.922742 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:22:28.923056 [info] Configuration module loaded.
+2023-10-16 16:22:28.923383 [info] Initializing vsomeip application "".
+2023-10-16 16:22:28.923827 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:22:28.924451 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:22:28.924918 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:22:28.927449 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:22:28.930246 [info] main dispatch thread id from application: ffff () is: 7f4fb8ac3700 TID: 56025
+2023-10-16 16:22:28.931517 [info] io thread id from application: ffff () is: 7f4fb92c4700 TID: 56024
+2023-10-16 16:22:28.930506 [info] shutdown thread id from application: ffff () is: 7f4fb3fff700 TID: 56026
+2023-10-16 16:22:28.931636 [info] io thread id from application: ffff () is: 7f4fb37fe700 TID: 56027
+2023-10-16 16:22:28.934483 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:22:28.935131 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:22:28.935942 [info] Application/Client 1001 is registering.
+2023-10-16 16:22:28.937711 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:22:28.939509 [info] Application/Client 1001 () is registered.
+2023-10-16 16:22:28.940372 [info] REGISTERED_ACK(1001)
+2023-10-16 16:22:28.941434 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:22:28.942109 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:22:28.942529 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:22:28.028552 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:22:28.030224 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:22:28.030696 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:22:28.033560 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:22:28.034148 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:22:28.034940 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:22:28.035410 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:22:28.036094 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:22:28.036489 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:22:36.267969 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:22:46.269639 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:22:47.405100 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:22:47.408296 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:22:47.409872 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:22:47.409851 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:22:47.410739 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:22:47.411949 [info] Exiting vsomeip application...
+2023-10-16 16:22:52.083164 [info] Stopping vsomeip application "" (1000).
+2023-10-16 16:22:52.090135 [info] Exiting vsomeip application...
+2023-10-16 16:23:21.838170 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:23:21.838609 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:23:21.838720 [info] Configuration module loaded.
+2023-10-16 16:23:21.838785 [info] Initializing vsomeip application "".
+2023-10-16 16:23:21.838898 [info] Instantiating routing manager [Host].
+2023-10-16 16:23:21.839158 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:23:21.839959 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:23:21.842324 [info] Service Discovery module loaded.
+2023-10-16 16:23:21.842752 [info] Application(unnamed, 1000) is initialized (11, 100).
+2023-10-16 16:23:21.843975 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:23:21.844285 [info] Starting vsomeip application "" (1000) using 2 threads I/O nice 255
+2023-10-16 16:23:21.844528 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:23:21.845667 [info] shutdown thread id from application: 1000 () is: 7f9fbdc9b700 TID: 56364
+2023-10-16 16:23:21.845594 [info] main dispatch thread id from application: 1000 () is: 7f9fbe49c700 TID: 56363
+2023-10-16 16:23:21.847153 [info] Watchdog is disabled!
+2023-10-16 16:23:21.846277 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:23:21.847859 [info] io thread id from application: 1000 () is: 7f9fbec9d700 TID: 56362
+2023-10-16 16:23:21.847889 [info] io thread id from application: 1000 () is: 7f9fbcc99700 TID: 56366
+2023-10-16 16:23:21.848450 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:23:21.849135 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:23:21.849911 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:23:21.849990 [info] Network interface "lo" state changed: up
+2023-10-16 16:23:23.287579 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:23:23.287884 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:23:23.287972 [info] Configuration module loaded.
+2023-10-16 16:23:23.288050 [info] Initializing vsomeip application "".
+2023-10-16 16:23:23.288174 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:23:23.288316 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:23:23.288425 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:23:23.289930 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:23:23.291125 [info] main dispatch thread id from application: ffff () is: 7f74779fe700 TID: 56386
+2023-10-16 16:23:23.291187 [info] shutdown thread id from application: ffff () is: 7f74771fd700 TID: 56387
+2023-10-16 16:23:23.291623 [info] io thread id from application: ffff () is: 7f74781ff700 TID: 56385
+2023-10-16 16:23:23.291646 [info] io thread id from application: ffff () is: 7f74769fc700 TID: 56388
+2023-10-16 16:23:23.292929 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:23:23.293088 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:23:23.293329 [info] Application/Client 1001 is registering.
+2023-10-16 16:23:23.293833 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:23:23.294464 [info] Application/Client 1001 () is registered.
+2023-10-16 16:23:23.294740 [info] REGISTERED_ACK(1001)
+2023-10-16 16:23:23.295000 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:23:23.295119 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:23:23.295234 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:23:23.390374 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:23:23.391647 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:23:23.392255 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:23:23.394818 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:23:23.395341 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:23:23.396003 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:23:23.396490 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:23:23.397304 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:23:23.397778 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:23:26.483844 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:23:26.488018 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:23:26.489309 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:23:26.489288 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:23:26.490436 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:23:26.491314 [info] Exiting vsomeip application...
+2023-10-16 16:23:26.254833 [info] Stopping vsomeip application "" (1000).
+2023-10-16 16:23:26.257791 [info] Exiting vsomeip application...
+2023-10-16 16:23:54.415087 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:23:54.415415 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:23:54.415505 [info] Configuration module loaded.
+2023-10-16 16:23:54.415572 [info] Initializing vsomeip application "".
+2023-10-16 16:23:54.415711 [info] Instantiating routing manager [Host].
+2023-10-16 16:23:54.415875 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:23:54.416408 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:23:54.417893 [info] Service Discovery module loaded.
+2023-10-16 16:23:54.418184 [info] Application(unnamed, 1000) is initialized (11, 100).
+2023-10-16 16:23:54.419263 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:23:54.419129 [info] Starting vsomeip application "" (1000) using 2 threads I/O nice 255
+2023-10-16 16:23:54.419707 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:23:54.420213 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:23:54.420508 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:23:54.420303 [info] main dispatch thread id from application: 1000 () is: 7fac47f91700 TID: 56625
+2023-10-16 16:23:54.420366 [info] shutdown thread id from application: 1000 () is: 7fac47790700 TID: 56626
+2023-10-16 16:23:54.420982 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:23:54.421203 [info] Watchdog is disabled!
+2023-10-16 16:23:54.421917 [info] io thread id from application: 1000 () is: 7fac48792700 TID: 56624
+2023-10-16 16:23:54.421923 [info] io thread id from application: 1000 () is: 7fac4678e700 TID: 56628
+2023-10-16 16:23:54.422585 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:23:54.422968 [info] Network interface "lo" state changed: up
+2023-10-16 16:23:56.203396 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:23:56.203725 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:23:56.203805 [info] Configuration module loaded.
+2023-10-16 16:23:56.203868 [info] Initializing vsomeip application "".
+2023-10-16 16:23:56.203990 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:23:56.204137 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:23:56.204239 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:23:56.205346 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:23:56.206446 [info] shutdown thread id from application: ffff () is: 7f6d677fe700 TID: 56649
+2023-10-16 16:23:56.207103 [info] io thread id from application: ffff () is: 7f6d6ca9e700 TID: 56647
+2023-10-16 16:23:56.207135 [info] io thread id from application: ffff () is: 7f6d66ffd700 TID: 56650
+2023-10-16 16:23:56.206793 [info] main dispatch thread id from application: ffff () is: 7f6d67fff700 TID: 56648
+2023-10-16 16:23:56.208133 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:23:56.208319 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:23:56.208556 [info] Application/Client 1001 is registering.
+2023-10-16 16:23:56.209126 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:23:56.209696 [info] Application/Client 1001 () is registered.
+2023-10-16 16:23:56.209966 [info] REGISTERED_ACK(1001)
+2023-10-16 16:23:56.210606 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:23:56.210746 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:23:56.210842 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:23:56.306005 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:23:56.307262 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:23:56.307596 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:23:56.310295 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:23:56.310690 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:23:56.311171 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:23:56.311570 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:23:56.312302 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:23:56.312574 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:24:04.424264 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:24:14.426309 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:24:24.427197 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:24:34.428125 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:24:44.429146 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:24:54.430191 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:25:00.687444 [info] Stopping vsomeip application "" (1000).
+2023-10-16 16:25:00.691946 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:25:00.692533 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:25:00.692921 [info] Exiting vsomeip application...
+2023-10-16 16:25:00.693303 [info] Application/Client 1001: Reconnecting to routing manager.
+2023-10-16 16:25:00.694620 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:25:00.695895 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:25:01.696910 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:25:01.697968 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:25:01.924993 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:25:01.927676 [info] Exiting vsomeip application...
+2023-10-16 16:26:25.940491 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:26:25.940870 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:26:25.940976 [info] Configuration module loaded.
+2023-10-16 16:26:25.941052 [info] Initializing vsomeip application "".
+2023-10-16 16:26:25.941178 [info] Instantiating routing manager [Host].
+2023-10-16 16:26:25.941394 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:26:25.942025 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:26:25.943442 [info] Service Discovery module loaded.
+2023-10-16 16:26:25.943749 [info] Application(unnamed, 1000) is initialized (11, 100).
+2023-10-16 16:26:25.944440 [info] Starting vsomeip application "" (1000) using 2 threads I/O nice 255
+2023-10-16 16:26:25.944616 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:26:25.945295 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:26:25.945426 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:26:25.945269 [info] main dispatch thread id from application: 1000 () is: 7fc4b4c18700 TID: 57330
+2023-10-16 16:26:25.945353 [info] shutdown thread id from application: 1000 () is: 7fc4affff700 TID: 57331
+2023-10-16 16:26:25.945753 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:26:25.946440 [info] Watchdog is disabled!
+2023-10-16 16:26:25.947471 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:26:25.947502 [info] io thread id from application: 1000 () is: 7fc4b5419700 TID: 57329
+2023-10-16 16:26:25.947504 [info] io thread id from application: 1000 () is: 7fc4aeffd700 TID: 57333
+2023-10-16 16:26:25.948566 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:26:25.949112 [info] Network interface "lo" state changed: up
+2023-10-16 16:26:30.075176 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:26:30.075525 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:26:30.075624 [info] Configuration module loaded.
+2023-10-16 16:26:30.075697 [info] Initializing vsomeip application "".
+2023-10-16 16:26:30.075810 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:26:30.075982 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:26:30.076102 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:26:30.076667 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:26:30.077533 [info] main dispatch thread id from application: ffff () is: 7ff512402700 TID: 57356
+2023-10-16 16:26:30.077627 [info] shutdown thread id from application: ffff () is: 7ff511c01700 TID: 57357
+2023-10-16 16:26:30.077994 [info] io thread id from application: ffff () is: 7ff512c03700 TID: 57355
+2023-10-16 16:26:30.078007 [info] io thread id from application: ffff () is: 7ff511400700 TID: 57358
+2023-10-16 16:26:30.079298 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:26:30.079493 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:26:30.079729 [info] Application/Client 1001 is registering.
+2023-10-16 16:26:30.080338 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:26:30.081082 [info] Application/Client 1001 () is registered.
+2023-10-16 16:26:30.081345 [info] REGISTERED_ACK(1001)
+2023-10-16 16:26:30.081562 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:26:30.081871 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:26:30.081988 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:26:30.177864 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:26:30.179532 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:26:30.180599 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:26:30.184159 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:26:30.184704 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:26:30.185410 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:26:30.185905 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:26:30.186614 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:26:30.187066 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:26:34.653994 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:26:34.655814 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:26:34.656710 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:26:34.656908 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:26:34.657561 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:26:34.658516 [info] Exiting vsomeip application...
+2023-10-16 16:26:34.250655 [info] Stopping vsomeip application "" (1000).
+2023-10-16 16:26:34.254074 [info] Exiting vsomeip application...
+2023-10-16 16:30:07.814432 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:30:07.814817 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:30:07.814913 [info] Configuration module loaded.
+2023-10-16 16:30:07.814985 [info] Initializing vsomeip application "".
+2023-10-16 16:30:07.815268 [info] Instantiating routing manager [Host].
+2023-10-16 16:30:07.815568 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:30:07.816234 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:30:07.818097 [info] Service Discovery module loaded.
+2023-10-16 16:30:07.818369 [info] Application(unnamed, 1000) is initialized (11, 100).
+2023-10-16 16:30:07.819244 [info] Starting vsomeip application "" (1000) using 2 threads I/O nice 255
+2023-10-16 16:30:07.819426 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:30:07.820029 [info] shutdown thread id from application: 1000 () is: 7fb3a2f79700 TID: 58207
+2023-10-16 16:30:07.821063 [info] Watchdog is disabled!
+2023-10-16 16:30:07.820749 [info] main dispatch thread id from application: 1000 () is: 7fb3a377a700 TID: 58206
+2023-10-16 16:30:07.821115 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:30:07.821565 [info] io thread id from application: 1000 () is: 7fb3a3f7b700 TID: 58205
+2023-10-16 16:30:07.821604 [info] io thread id from application: 1000 () is: 7fb3a1f77700 TID: 58209
+2023-10-16 16:30:07.822529 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:30:07.823242 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:30:07.823328 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:30:07.823754 [info] Network interface "lo" state changed: up
+2023-10-16 16:30:07.824033 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:30:09.161696 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:30:09.162085 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:30:09.162198 [info] Configuration module loaded.
+2023-10-16 16:30:09.162312 [info] Initializing vsomeip application "".
+2023-10-16 16:30:09.162505 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:30:09.162727 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:30:09.162935 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:30:09.164221 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:30:09.165136 [info] shutdown thread id from application: ffff () is: 7fa4b77fe700 TID: 58232
+2023-10-16 16:30:09.165795 [info] io thread id from application: ffff () is: 7fa4bca78700 TID: 58230
+2023-10-16 16:30:09.165498 [info] main dispatch thread id from application: ffff () is: 7fa4b7fff700 TID: 58231
+2023-10-16 16:30:09.166183 [info] io thread id from application: ffff () is: 7fa4b6ffd700 TID: 58233
+2023-10-16 16:30:09.166760 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:30:09.166931 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:30:09.167199 [info] Application/Client 1001 is registering.
+2023-10-16 16:30:09.167828 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:30:09.168471 [info] Application/Client 1001 () is registered.
+2023-10-16 16:30:09.168878 [info] REGISTERED_ACK(1001)
+2023-10-16 16:30:09.169252 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:30:09.169441 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:30:09.169606 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:30:09.265285 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:30:09.266534 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:30:09.267291 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:30:09.269700 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:30:09.270054 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:30:09.271017 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:30:09.271468 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:30:09.272300 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:30:09.272585 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:30:17.824496 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:30:27.826220 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:30:37.827450 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:30:38.155616 [info] Stopping vsomeip application "" (1000).
+2023-10-16 16:30:38.160489 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:30:38.160300 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:30:38.161130 [info] Application/Client 1001: Reconnecting to routing manager.
+2023-10-16 16:30:38.161426 [info] Exiting vsomeip application...
+2023-10-16 16:30:38.162930 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:30:38.164503 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:30:38.166253 [warning] local_client_endpoint::connect: Couldn't connect to: /tmp/vsomeip-0 (No such file or directory / 2)
+2023-10-16 16:30:38.167443 [info] routing_manager_proxy::on_disconnect: Client 0x1001 calling host_->on_state with DEREGISTERED
+2023-10-16 16:30:38.818563 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:30:38.821240 [info] Exiting vsomeip application...
+2023-10-16 16:30:42.047322 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:30:42.047671 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:30:42.047762 [info] Configuration module loaded.
+2023-10-16 16:30:42.047844 [info] Initializing vsomeip application "".
+2023-10-16 16:30:42.047966 [info] Instantiating routing manager [Host].
+2023-10-16 16:30:42.048190 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:30:42.048738 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:30:42.050004 [info] Service Discovery module loaded.
+2023-10-16 16:30:42.050266 [info] Application(unnamed, 1000) is initialized (11, 100).
+2023-10-16 16:30:42.050945 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=true]
+2023-10-16 16:30:42.050848 [info] Starting vsomeip application "" (1000) using 2 threads I/O nice 255
+2023-10-16 16:30:42.051289 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=true]
+2023-10-16 16:30:42.051820 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=true]
+2023-10-16 16:30:42.052032 [info] OFFER(1000): [1248.567c:1.0] (true)
+2023-10-16 16:30:42.051948 [info] shutdown thread id from application: 1000 () is: 7fcc9eecb700 TID: 58529
+2023-10-16 16:30:42.052480 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:30:42.052788 [info] Watchdog is disabled!
+2023-10-16 16:30:42.051894 [info] main dispatch thread id from application: 1000 () is: 7fcc9f6cc700 TID: 58528
+2023-10-16 16:30:42.053361 [info] io thread id from application: 1000 () is: 7fcc9fecd700 TID: 58527
+2023-10-16 16:30:42.053368 [info] io thread id from application: 1000 () is: 7fcc9dec9700 TID: 58531
+2023-10-16 16:30:42.054273 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:30:42.054614 [info] Network interface "lo" state changed: up
+2023-10-16 16:30:43.993434 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:30:43.993788 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:30:43.993923 [info] Configuration module loaded.
+2023-10-16 16:30:43.994033 [info] Initializing vsomeip application "".
+2023-10-16 16:30:43.994199 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:30:43.994435 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:30:43.994620 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:30:43.995323 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:30:43.996030 [info] main dispatch thread id from application: ffff () is: 7f1153b6e700 TID: 58546
+2023-10-16 16:30:43.996106 [info] shutdown thread id from application: ffff () is: 7f115336d700 TID: 58547
+2023-10-16 16:30:43.996413 [info] io thread id from application: ffff () is: 7f115436f700 TID: 58545
+2023-10-16 16:30:43.996444 [info] io thread id from application: ffff () is: 7f1152b6c700 TID: 58548
+2023-10-16 16:30:43.998017 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:30:43.998206 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:30:43.998464 [info] Application/Client 1001 is registering.
+2023-10-16 16:30:43.999587 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:30:43.000312 [info] Application/Client 1001 () is registered.
+2023-10-16 16:30:43.001306 [info] REGISTERED_ACK(1001)
+2023-10-16 16:30:43.001674 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=0:reliability=1]
+2023-10-16 16:30:43.001808 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=0:reliability=1]
+2023-10-16 16:30:43.001917 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=0:reliability=1]
+2023-10-16 16:30:43.096448 [info] REQUEST(1001): [1248.567c:1.4294967295]
+2023-10-16 16:30:43.098127 [info] ON_AVAILABLE(1001): [1248.567c:1.0]
+2023-10-16 16:30:43.099139 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:30:43.102037 [info] SUBSCRIBE(1001): [1248.567c.80f6:80f6:1]
+2023-10-16 16:30:43.102452 [info] SUBSCRIBE ACK(1000): [1248.567c.80f6.80f6]
+2023-10-16 16:30:43.103124 [info] SUBSCRIBE(1001): [1248.567c.80f8:80f8:1]
+2023-10-16 16:30:43.103427 [info] SUBSCRIBE ACK(1000): [1248.567c.80f8.80f8]
+2023-10-16 16:30:43.104133 [info] SUBSCRIBE(1001): [1248.567c.80f7:80f7:1]
+2023-10-16 16:30:43.104487 [info] SUBSCRIBE ACK(1000): [1248.567c.80f7.80f7]
+2023-10-16 16:30:51.446618 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:30:51.449198 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:30:51.451475 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:30:51.451593 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:30:51.453203 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:30:51.455163 [info] Exiting vsomeip application...
+2023-10-16 16:30:52.055506 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:30:52.362176 [info] Stopping vsomeip application "" (1000).
+2023-10-16 16:30:52.367114 [info] Exiting vsomeip application...
+2023-10-16 16:31:05.685279 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:31:05.685634 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:31:05.685756 [info] Configuration module loaded.
+2023-10-16 16:31:05.685863 [info] Initializing vsomeip application "".
+2023-10-16 16:31:05.686029 [info] Instantiating routing manager [Host].
+2023-10-16 16:31:05.686361 [info] create_local_server Routing endpoint at /tmp/vsomeip-0
+2023-10-16 16:31:05.687025 [info] Service Discovery enabled. Trying to load module.
+2023-10-16 16:31:05.688766 [info] Service Discovery module loaded.
+2023-10-16 16:31:05.689129 [info] Application(unnamed, 1000) is initialized (11, 100).
+2023-10-16 16:31:05.690079 [info] REGISTER EVENT(1000): [1248.567c.80f6:is_provider=false]
+2023-10-16 16:31:05.690089 [info] Starting vsomeip application "" (1000) using 2 threads I/O nice 255
+2023-10-16 16:31:05.690404 [info] REGISTER EVENT(1000): [1248.567c.80f7:is_provider=false]
+2023-10-16 16:31:05.690883 [info] REGISTER EVENT(1000): [1248.567c.80f8:is_provider=false]
+2023-10-16 16:31:05.691021 [info] REQUEST(1000): [1248.567c:1.4294967295]
+2023-10-16 16:31:05.690991 [info] shutdown thread id from application: 1000 () is: 7fb952b94700 TID: 58767
+2023-10-16 16:31:05.691382 [info] Listening at /tmp/vsomeip-1000
+2023-10-16 16:31:05.692025 [info] Watchdog is disabled!
+2023-10-16 16:31:05.692047 [info] main dispatch thread id from application: 1000 () is: 7fb953395700 TID: 58766
+2023-10-16 16:31:05.692457 [info] io thread id from application: 1000 () is: 7fb953b96700 TID: 58765
+2023-10-16 16:31:05.692462 [info] io thread id from application: 1000 () is: 7fb951b92700 TID: 58769
+2023-10-16 16:31:05.693322 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:31:05.693906 [info] Network interface "lo" state changed: up
+2023-10-16 16:31:15.693931 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:31:20.388733 [info] Parsed vsomeip configuration in 0ms
+2023-10-16 16:31:20.389103 [info] Using configuration file: "./vsomeip.json".
+2023-10-16 16:31:20.389210 [info] Configuration module loaded.
+2023-10-16 16:31:20.389311 [info] Initializing vsomeip application "".
+2023-10-16 16:31:20.389475 [info] Instantiating routing manager [Proxy].
+2023-10-16 16:31:20.389695 [info] Client [ffff] is connecting to [0] at /tmp/vsomeip-0
+2023-10-16 16:31:20.389856 [info] Application(unnamed, ffff) is initialized (11, 100).
+2023-10-16 16:31:20.390812 [info] Starting vsomeip application "" (ffff) using 2 threads I/O nice 255
+2023-10-16 16:31:20.391556 [info] main dispatch thread id from application: ffff () is: 7fdedbfff700 TID: 58867
+2023-10-16 16:31:20.391692 [info] shutdown thread id from application: ffff () is: 7fdedb7fe700 TID: 58868
+2023-10-16 16:31:20.392065 [info] io thread id from application: ffff () is: 7fdee0e9e700 TID: 58866
+2023-10-16 16:31:20.392096 [info] io thread id from application: ffff () is: 7fdedaffd700 TID: 58869
+2023-10-16 16:31:20.393276 [info] Listening at /tmp/vsomeip-1001
+2023-10-16 16:31:20.393440 [info] Client 1001 () successfully connected to routing  ~> registering..
+2023-10-16 16:31:20.393666 [info] Application/Client 1001 is registering.
+2023-10-16 16:31:20.394260 [info] Client [1000] is connecting to [1001] at /tmp/vsomeip-1001
+2023-10-16 16:31:20.394826 [info] Application/Client 1001 () is registered.
+2023-10-16 16:31:20.395105 [info] REGISTER EVENT(1001): [1248.567c.80f6:is_provider=1]
+2023-10-16 16:31:20.395270 [info] REGISTER EVENT(1001): [1248.567c.80f7:is_provider=1]
+2023-10-16 16:31:20.395161 [info] REGISTERED_ACK(1001)
+2023-10-16 16:31:20.395402 [info] REGISTER EVENT(1001): [1248.567c.80f8:is_provider=1]
+2023-10-16 16:31:20.395753 [info] OFFER(1001): [1248.567c:1.0] (true)
+2023-10-16 16:31:20.395999 [info] Port configuration missing for [1248.567c]. Service is internal.
+2023-10-16 16:31:20.397418 [info] Client [1001] is connecting to [1000] at /tmp/vsomeip-1000
+2023-10-16 16:31:20.398563 [info] SUBSCRIBE(1000): [1248.567c.80f6:80f6:1]
+2023-10-16 16:31:20.398943 [info] SUBSCRIBE ACK(1001): [1248.567c.80f6.80f6]
+2023-10-16 16:31:20.398978 [info] SUBSCRIBE(1000): [1248.567c.80f6:80f6:1]
+2023-10-16 16:31:20.400234 [info] SUBSCRIBE(1000): [1248.567c.80f8:80f8:1]
+2023-10-16 16:31:20.400685 [info] SUBSCRIBE(1000): [1248.567c.80f8:80f8:1]
+2023-10-16 16:31:20.400801 [info] SUBSCRIBE ACK(1001): [1248.567c.80f8.80f8]
+2023-10-16 16:31:20.401512 [info] SUBSCRIBE(1000): [1248.567c.80f7:80f7:1]
+2023-10-16 16:31:20.402013 [info] SUBSCRIBE(1000): [1248.567c.80f7:80f7:1]
+2023-10-16 16:31:20.402082 [info] SUBSCRIBE ACK(1001): [1248.567c.80f7.80f7]
+2023-10-16 16:31:25.694968 [info] vSomeIP 3.1.20.3 | (default)
+2023-10-16 16:31:34.727574 [info] Stopping vsomeip application "" (1001).
+2023-10-16 16:31:34.729974 [info] Application/Client 1001 is deregistering.
+2023-10-16 16:31:34.731809 [info] Application/Client 1001 () is deregistered.
+2023-10-16 16:31:34.733004 [info] Client [1001] is closing connection to [1000]
+2023-10-16 16:31:34.734582 [info] Exiting vsomeip application...
+2023-10-16 16:31:34.833073 [info] Client [1000] is closing connection to [1001]
+2023-10-16 16:31:35.356335 [info] Stopping vsomeip application "" (1000).
+2023-10-16 16:31:35.359856 [info] Exiting vsomeip application...

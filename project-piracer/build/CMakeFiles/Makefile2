@@ -76,7 +76,7 @@ clean: CMakeFiles/PiracerClient.dir/clean
 CMakeFiles/PiracerService.dir/all:
 	$(MAKE) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/depend
 	$(MAKE) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation05/Desktop/DES_Middleware/project-piracer/build/CMakeFiles --progress-num=6,7,8,9,10,11 "Built target PiracerService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation05/Desktop/DES_Middleware/project-piracer/build/CMakeFiles --progress-num=5,6,7,8,9,10 "Built target PiracerService"
 .PHONY : CMakeFiles/PiracerService.dir/all
 
 # Build rule for subdir invocation for target.
@@ -103,12 +103,12 @@ CMakeFiles/PiracerService.dir/clean:
 CMakeFiles/PiracerClient.dir/all:
 	$(MAKE) -f CMakeFiles/PiracerClient.dir/build.make CMakeFiles/PiracerClient.dir/depend
 	$(MAKE) -f CMakeFiles/PiracerClient.dir/build.make CMakeFiles/PiracerClient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation05/Desktop/DES_Middleware/project-piracer/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target PiracerClient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation05/Desktop/DES_Middleware/project-piracer/build/CMakeFiles --progress-num=1,2,3,4 "Built target PiracerClient"
 .PHONY : CMakeFiles/PiracerClient.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PiracerClient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_Middleware/project-piracer/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_Middleware/project-piracer/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PiracerClient.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_Middleware/project-piracer/build/CMakeFiles 0
 .PHONY : CMakeFiles/PiracerClient.dir/rule

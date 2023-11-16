@@ -17,7 +17,6 @@ add_executable(PiracerClient
         src/PiracerClient.cpp
         src-gen/v1/commonapi/PiracerSomeIPProxy.cpp
         src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp
-        src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp
 )
 target_link_libraries(PiracerClient CommonAPI CommonAPI-SomeIP vsomeip3)
 

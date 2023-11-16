@@ -4,7 +4,7 @@
 PiracerStubImpl::PiracerStubImpl() { 
     _battery = 0;
     _gear = 0;
-    _mode = 0;
+    _mode = 5;
 
 }
 PiracerStubImpl::~PiracerStubImpl() { }

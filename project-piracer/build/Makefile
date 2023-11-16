@@ -203,7 +203,6 @@ src-gen/v1/commonapi/PiracerSomeIPStubAdapter.o: src-gen/v1/commonapi/PiracerSom
 # target to build an object file
 src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.o:
 	$(MAKE) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.o
-	$(MAKE) -f CMakeFiles/PiracerClient.dir/build.make CMakeFiles/PiracerClient.dir/src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.o
 .PHONY : src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.o
 
 src-gen/v1/commonapi/PiracerSomeIPStubAdapter.i: src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.i
@@ -213,7 +212,6 @@ src-gen/v1/commonapi/PiracerSomeIPStubAdapter.i: src-gen/v1/commonapi/PiracerSom
 # target to preprocess a source file
 src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.i:
 	$(MAKE) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.i
-	$(MAKE) -f CMakeFiles/PiracerClient.dir/build.make CMakeFiles/PiracerClient.dir/src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.i
 .PHONY : src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.i
 
 src-gen/v1/commonapi/PiracerSomeIPStubAdapter.s: src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.s
@@ -223,7 +221,6 @@ src-gen/v1/commonapi/PiracerSomeIPStubAdapter.s: src-gen/v1/commonapi/PiracerSom
 # target to generate assembly for a file
 src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.s:
 	$(MAKE) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.s
-	$(MAKE) -f CMakeFiles/PiracerClient.dir/build.make CMakeFiles/PiracerClient.dir/src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.s
 .PHONY : src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.s
 
 src/PiracerClient.o: src/PiracerClient.cpp.o

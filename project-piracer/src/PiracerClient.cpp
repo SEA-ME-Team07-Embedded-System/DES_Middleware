@@ -30,6 +30,7 @@ void PiracerClient::startSubscribeBattery() {
     else {
 		std::cout << "Got attribute Battery value: " << int(_battery) << std::endl;
 		proxy->getBatteryAttribute().getChangedEvent().subscribe([&](const uint8_t& battery) {
+			std::cout << "Received change Battery message: " << int(battery) << std::endl;
 		});
 	}
 }
@@ -42,6 +43,7 @@ void PiracerClient::startSubscribeGear() {
     else {
 		std::cout << "Got attribute Gear value: " << int(_gear) << std::endl;
 		proxy->getGearAttribute().getChangedEvent().subscribe([&](const uint8_t& gear) {
+			std::cout << "Received change Gear message: " << int(gear) << std::endl;
 		});
 	}
 }
@@ -54,11 +56,12 @@ void PiracerClient::startSubscribeMode() {
     else {
 		std::cout << "Got attribute Mode value: " << int(_mode) << std::endl;
 		proxy->getModeAttribute().getChangedEvent().subscribe([&](const uint8_t& mode) {
+			std::cout << "Received change Mode message: " << int(mode) << std::endl;
 		});
 	}
 }
 
-void PiracerClient::modeSelectWrapper(uint8_t i) {
+void PiracerClient::modeSelectCall(uint8_t i) {
     proxy->modeSelect(i, callStatus, returnMessage);
 	std::cout << "Got Return Message: '" << returnMessage << "'\n";
 }
@@ -76,14 +79,12 @@ int main() {
 	uint8_t i = 0;
 
 	while (true) {
+		i++;
+		piracerClient.modeSelectCall(i);
 		std::cout << "Waiting data ... " << std::endl;
-
-		std::this_thread::sleep_for(std::chrono::seconds(3));
-		
-		piracerClient.modeSelectWrapper(i);
-        i++;
-
+		std::this_thread::sleep_for(std::chrono::seconds(1));
 	}
+	
 
 	return 0;
 }

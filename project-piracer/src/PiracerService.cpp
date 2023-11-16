@@ -8,11 +8,10 @@ int main()
 
     std::string domain = "local";
     std::string instance = "Piracer"; // instance id
-    std::string connection = "team07";
 
     std::shared_ptr<PiracerStubImpl> PiracerService = std::make_shared<PiracerStubImpl>();
     
-    while (!runtime->registerService(domain, instance, PiracerService, connection))
+    while (!runtime->registerService(domain, instance, PiracerService))
     {
         std::cout << "Register Service failed, trying again in 100 milliseconds..." << std::endl;
         std::this_thread::sleep_for(std::chrono::milliseconds(100));
@@ -26,24 +25,26 @@ int main()
 
     while (true)
     {
-        battery++;
-        gear++;
-
         PiracerService->batteryPublisher(battery);
         PiracerService->gearPublisher(gear);
-        
-        mode = PiracerService->getMode();
+
+        //mode = PiracerService->getMode();
         PiracerService->modePublisher(mode);
 
         std::this_thread::sleep_for(std::chrono::seconds(1));
 
-        if (battery > 100)
+        if (battery > 9)
         {
             battery = 0;
             gear = 0;
             mode = 0;
         }
+
+        battery++;
+        gear++;
+        mode++;
         printf("\n");
     }
+
     return 0;
 }
