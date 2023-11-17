@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(Piracer
+project(PiracerInterface)
 
 # Find the Python3 libraries
 find_package(Python3 COMPONENTS Development)
@@ -17,19 +17,19 @@ link_directories(
     ~/build-commonapi/vsomeip/build
 )
 add_executable(PiracerClient
-        src/PiracerClient.cpp
-        src-gen/v1/commonapi/PiracerSomeIPProxy.cpp
-        src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp
+    src/PiracerClient.cpp
+    src-gen/v1/commonapi/PiracerSomeIPProxy.cpp
+    src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp
 )
 target_link_libraries(PiracerClient CommonAPI CommonAPI-SomeIP vsomeip3)
 
-add_executable(PiracerInterface 
-        PiracerInterface.cpp
-	    PiracerClass.cpp
-	    GamePad.cpp
-        src/PiracerStubImpl.cpp
-        src-gen/v1/commonapi/PiracerSomeIPProxy.cpp
-        src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp
-        src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp
+add_executable(PiracerInterface
+    src/PiracerInterface.cpp
+    src/PiracerClass.cpp
+    src/GamePad.cpp
+    src/PiracerStubImpl.cpp
+    src-gen/v1/commonapi/PiracerSomeIPProxy.cpp
+    src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp
+    src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp
 )
 target_link_libraries(PiracerInterface Python3::Python pthread CommonAPI CommonAPI-SomeIP vsomeip3)
