@@ -45,9 +45,10 @@ void PiracerStubImpl::gearPublisher(const uint8_t  gear) {
 }
 
 void PiracerStubImpl::modePublisher(const uint8_t mode) {
-  
-  setModeAttribute(_mode);
-  std::cout <<  "New Mode Data = " << int(_mode) << "!" << std::endl;
-  
+  if (_mode != mode) {
+    //_mode = mode;
+    setModeAttribute(_mode);
+    std::cout <<  "New Mode Data = " << int(_mode) << "!" << std::endl;
+  }
   return;
 }
