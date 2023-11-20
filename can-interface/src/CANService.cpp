@@ -6,7 +6,7 @@
 
 int main() {
 
-    //system("ip link set can0 up type can bitrate 125000");
+    system("ip link set can0 up type can bitrate 125000");
 
     int s;
     int nbytes;
