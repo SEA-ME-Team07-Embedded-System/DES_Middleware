@@ -81,10 +81,10 @@ void piracer_source(GamePad& gamepad, PiracerClass& piracer, GearState& gearstat
                 std::lock_guard<std::mutex> lock(mtx);
 
                 // Gear change through GamePad
-                if(gamepad.getButtonP()) {gearstate.gearP = true; gearstate.gearR = false; gearstate.gearN = false; gearstate.gearD = false;}
-                if(gamepad.getButtonR()) {gearstate.gearP = false; gearstate.gearR = true; gearstate.gearN = false; gearstate.gearD = false;}
-                if(gamepad.getButtonN()) {gearstate.gearP = false; gearstate.gearR = false; gearstate.gearN = true; gearstate.gearD = false;}
-                if(gamepad.getButtonD()) {gearstate.gearP = false; gearstate.gearR = false; gearstate.gearN = false; gearstate.gearD = true;}
+                //if(gamepad.getButtonP()) {gearstate.gearP = true; gearstate.gearR = false; gearstate.gearN = false; gearstate.gearD = false;}
+                //if(gamepad.getButtonR()) {gearstate.gearP = false; gearstate.gearR = true; gearstate.gearN = false; gearstate.gearD = false;}
+                //if(gamepad.getButtonN()) {gearstate.gearP = false; gearstate.gearR = false; gearstate.gearN = true; gearstate.gearD = false;}
+                //if(gamepad.getButtonD()) {gearstate.gearP = false; gearstate.gearR = false; gearstate.gearN = false; gearstate.gearD = true;}
                 
                 // Battery change
                 batteryLevel = piracer.getBattery();
@@ -101,7 +101,7 @@ void piracer_source(GamePad& gamepad, PiracerClass& piracer, GearState& gearstat
 }
 
 int main() {
-
+    std::cout << "someip initailzing start" << std::endl;
     // SOME/IP initialize
     std::shared_ptr<CommonAPI::Runtime> runtime = CommonAPI::Runtime::get();
     std::string domain = "local";
@@ -116,8 +116,11 @@ int main() {
 
 
     // Piracer Python Binding
+    std::cout << "binding initializing start" << std::endl;
     PiracerClass piracer;
+    std::cout << "piracer spawned instance" << std::endl;
     GamePad gamepad;
+    std::cout << "gameapd spawned instance" << std::endl;
     GearState gearstate;
     uint8_t mode = 5;
     uint8_t batteryLevel;
@@ -125,9 +128,12 @@ int main() {
     // Create threads for fetching data
     std::vector<std::thread> threads;
     
+    
     try {   
         threads.emplace_back(piracer_source, std::ref(gamepad), std::ref(piracer), std::ref(gearstate), std::ref(mode), std::ref(batteryLevel));
+	std::cout << "thread piracer_source executed..." << std::endl;
         threads.emplace_back(piracer_publish, std::ref(PiracerService), std::ref(gearstate), std::ref(mode), std::ref(batteryLevel));
+	std::cout << "thread piracer_publish executed..." << std::endl;
 
         // Wait for threads to finish
         for (auto& t : threads) {
@@ -138,6 +144,6 @@ int main() {
     } catch (const std::exception& e) {
         std::cerr << "Exception in main: " << e.what() << std::endl;
     }
-
+    
     return 0;
 }
