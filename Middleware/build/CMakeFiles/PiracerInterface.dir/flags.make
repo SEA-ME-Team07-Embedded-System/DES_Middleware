@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/team5/junho/DES_Middleware/Middleware/src-gen -I/home/team5/build-commonapi/capicxx-core-runtime/include -I/home/team5/build-commonapi/capicxx-someip-runtime/include -I/home/team5/build-commonapi/vsomeip/interface -isystem /usr/include/python3.9
+CXX_INCLUDES = -I/home/team5/junho/DES_Middleware/Middleware/src-gen -I/home/team5/build-commonapi/capicxx-core-runtime/include -I/home/team5/build-commonapi/capicxx-someip-runtime/include -I/home/team5/vsomeip/interface -isystem /usr/include/python3.9
 
 CXX_FLAGS =  -pthread -std=c++0x
 

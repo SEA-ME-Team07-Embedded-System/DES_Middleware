@@ -73,6 +73,7 @@ CMAKE_BINARY_DIR = /home/team5/junho/DES_Middleware/Middleware/build
 
 # The main recursive "all" target.
 all: CMakeFiles/PiracerInterface.dir/all
+all: CMakeFiles/PiracerService.dir/all
 all: CMakeFiles/PiracerClient.dir/all
 
 .PHONY : all
@@ -84,6 +85,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/PiracerInterface.dir/clean
+clean: CMakeFiles/PiracerService.dir/clean
 clean: CMakeFiles/PiracerClient.dir/clean
 
 .PHONY : clean
@@ -114,6 +116,33 @@ PiracerInterface: CMakeFiles/PiracerInterface.dir/rule
 CMakeFiles/PiracerInterface.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerInterface.dir/build.make CMakeFiles/PiracerInterface.dir/clean
 .PHONY : CMakeFiles/PiracerInterface.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/PiracerService.dir
+
+# All Build rule for target.
+CMakeFiles/PiracerService.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/team5/junho/DES_Middleware/Middleware/build/CMakeFiles --progress-num=13,14,15,16,17,18 "Built target PiracerService"
+.PHONY : CMakeFiles/PiracerService.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/PiracerService.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/team5/junho/DES_Middleware/Middleware/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PiracerService.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/team5/junho/DES_Middleware/Middleware/build/CMakeFiles 0
+.PHONY : CMakeFiles/PiracerService.dir/rule
+
+# Convenience name for target.
+PiracerService: CMakeFiles/PiracerService.dir/rule
+
+.PHONY : PiracerService
+
+# clean rule for target.
+CMakeFiles/PiracerService.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/clean
+.PHONY : CMakeFiles/PiracerService.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/PiracerClient.dir

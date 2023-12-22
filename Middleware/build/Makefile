@@ -143,6 +143,19 @@ PiracerInterface/fast:
 .PHONY : PiracerInterface/fast
 
 #=============================================================================
+# Target rules for targets named PiracerService
+
+# Build rule for target.
+PiracerService: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PiracerService
+.PHONY : PiracerService
+
+# fast build rule for target.
+PiracerService/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/build
+.PHONY : PiracerService/fast
+
+#=============================================================================
 # Target rules for targets named PiracerClient
 
 # Build rule for target.
@@ -162,6 +175,7 @@ src-gen/v1/commonapi/PiracerSomeIPDeployment.o: src-gen/v1/commonapi/PiracerSome
 # target to build an object file
 src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerInterface.dir/build.make CMakeFiles/PiracerInterface.dir/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerClient.dir/build.make CMakeFiles/PiracerClient.dir/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o
 .PHONY : src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o
 
@@ -172,6 +186,7 @@ src-gen/v1/commonapi/PiracerSomeIPDeployment.i: src-gen/v1/commonapi/PiracerSome
 # target to preprocess a source file
 src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerInterface.dir/build.make CMakeFiles/PiracerInterface.dir/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerClient.dir/build.make CMakeFiles/PiracerClient.dir/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i
 .PHONY : src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i
 
@@ -182,6 +197,7 @@ src-gen/v1/commonapi/PiracerSomeIPDeployment.s: src-gen/v1/commonapi/PiracerSome
 # target to generate assembly for a file
 src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerInterface.dir/build.make CMakeFiles/PiracerInterface.dir/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerClient.dir/build.make CMakeFiles/PiracerClient.dir/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s
 .PHONY : src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s
 
@@ -192,6 +208,7 @@ src-gen/v1/commonapi/PiracerSomeIPProxy.o: src-gen/v1/commonapi/PiracerSomeIPPro
 # target to build an object file
 src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerInterface.dir/build.make CMakeFiles/PiracerInterface.dir/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerClient.dir/build.make CMakeFiles/PiracerClient.dir/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o
 .PHONY : src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o
 
@@ -202,6 +219,7 @@ src-gen/v1/commonapi/PiracerSomeIPProxy.i: src-gen/v1/commonapi/PiracerSomeIPPro
 # target to preprocess a source file
 src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerInterface.dir/build.make CMakeFiles/PiracerInterface.dir/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerClient.dir/build.make CMakeFiles/PiracerClient.dir/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i
 .PHONY : src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i
 
@@ -212,6 +230,7 @@ src-gen/v1/commonapi/PiracerSomeIPProxy.s: src-gen/v1/commonapi/PiracerSomeIPPro
 # target to generate assembly for a file
 src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerInterface.dir/build.make CMakeFiles/PiracerInterface.dir/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerClient.dir/build.make CMakeFiles/PiracerClient.dir/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s
 .PHONY : src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s
 
@@ -222,6 +241,7 @@ src-gen/v1/commonapi/PiracerSomeIPStubAdapter.o: src-gen/v1/commonapi/PiracerSom
 # target to build an object file
 src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerInterface.dir/build.make CMakeFiles/PiracerInterface.dir/src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.o
 .PHONY : src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.o
 
 src-gen/v1/commonapi/PiracerSomeIPStubAdapter.i: src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.i
@@ -231,6 +251,7 @@ src-gen/v1/commonapi/PiracerSomeIPStubAdapter.i: src-gen/v1/commonapi/PiracerSom
 # target to preprocess a source file
 src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerInterface.dir/build.make CMakeFiles/PiracerInterface.dir/src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.i
 .PHONY : src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.i
 
 src-gen/v1/commonapi/PiracerSomeIPStubAdapter.s: src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.s
@@ -240,6 +261,7 @@ src-gen/v1/commonapi/PiracerSomeIPStubAdapter.s: src-gen/v1/commonapi/PiracerSom
 # target to generate assembly for a file
 src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerInterface.dir/build.make CMakeFiles/PiracerInterface.dir/src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.s
 .PHONY : src-gen/v1/commonapi/PiracerSomeIPStubAdapter.cpp.s
 
 src/GamePad.o: src/GamePad.cpp.o
@@ -350,6 +372,33 @@ src/PiracerInterface.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerInterface.dir/build.make CMakeFiles/PiracerInterface.dir/src/PiracerInterface.cpp.s
 .PHONY : src/PiracerInterface.cpp.s
 
+src/PiracerService.o: src/PiracerService.cpp.o
+
+.PHONY : src/PiracerService.o
+
+# target to build an object file
+src/PiracerService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src/PiracerService.cpp.o
+.PHONY : src/PiracerService.cpp.o
+
+src/PiracerService.i: src/PiracerService.cpp.i
+
+.PHONY : src/PiracerService.i
+
+# target to preprocess a source file
+src/PiracerService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src/PiracerService.cpp.i
+.PHONY : src/PiracerService.cpp.i
+
+src/PiracerService.s: src/PiracerService.cpp.s
+
+.PHONY : src/PiracerService.s
+
+# target to generate assembly for a file
+src/PiracerService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src/PiracerService.cpp.s
+.PHONY : src/PiracerService.cpp.s
+
 src/PiracerStubImpl.o: src/PiracerStubImpl.cpp.o
 
 .PHONY : src/PiracerStubImpl.o
@@ -357,6 +406,7 @@ src/PiracerStubImpl.o: src/PiracerStubImpl.cpp.o
 # target to build an object file
 src/PiracerStubImpl.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerInterface.dir/build.make CMakeFiles/PiracerInterface.dir/src/PiracerStubImpl.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src/PiracerStubImpl.cpp.o
 .PHONY : src/PiracerStubImpl.cpp.o
 
 src/PiracerStubImpl.i: src/PiracerStubImpl.cpp.i
@@ -366,6 +416,7 @@ src/PiracerStubImpl.i: src/PiracerStubImpl.cpp.i
 # target to preprocess a source file
 src/PiracerStubImpl.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerInterface.dir/build.make CMakeFiles/PiracerInterface.dir/src/PiracerStubImpl.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src/PiracerStubImpl.cpp.i
 .PHONY : src/PiracerStubImpl.cpp.i
 
 src/PiracerStubImpl.s: src/PiracerStubImpl.cpp.s
@@ -375,6 +426,7 @@ src/PiracerStubImpl.s: src/PiracerStubImpl.cpp.s
 # target to generate assembly for a file
 src/PiracerStubImpl.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerInterface.dir/build.make CMakeFiles/PiracerInterface.dir/src/PiracerStubImpl.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PiracerService.dir/build.make CMakeFiles/PiracerService.dir/src/PiracerStubImpl.cpp.s
 .PHONY : src/PiracerStubImpl.cpp.s
 
 # Help Target
@@ -387,6 +439,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... PiracerClient"
 	@echo "... PiracerInterface"
+	@echo "... PiracerService"
 	@echo "... src-gen/v1/commonapi/PiracerSomeIPDeployment.o"
 	@echo "... src-gen/v1/commonapi/PiracerSomeIPDeployment.i"
 	@echo "... src-gen/v1/commonapi/PiracerSomeIPDeployment.s"
@@ -408,6 +461,9 @@ help:
 	@echo "... src/PiracerInterface.o"
 	@echo "... src/PiracerInterface.i"
 	@echo "... src/PiracerInterface.s"
+	@echo "... src/PiracerService.o"
+	@echo "... src/PiracerService.i"
+	@echo "... src/PiracerService.s"
 	@echo "... src/PiracerStubImpl.o"
 	@echo "... src/PiracerStubImpl.i"
 	@echo "... src/PiracerStubImpl.s"

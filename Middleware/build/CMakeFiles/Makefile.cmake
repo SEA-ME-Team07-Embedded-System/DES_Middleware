@@ -121,5 +121,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/PiracerInterface.dir/DependInfo.cmake"
+  "CMakeFiles/PiracerService.dir/DependInfo.cmake"
   "CMakeFiles/PiracerClient.dir/DependInfo.cmake"
   )

@@ -15,7 +15,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src-gen"
   "/home/team5/build-commonapi/capicxx-core-runtime/include"
   "/home/team5/build-commonapi/capicxx-someip-runtime/include"
-  "/home/team5/build-commonapi/vsomeip/interface"
+  "/home/team5/vsomeip/interface"
   )
 
 # Targets to which this target links.
