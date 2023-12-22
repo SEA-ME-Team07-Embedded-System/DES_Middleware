@@ -66,7 +66,7 @@ void PiracerClient::modeSelectCall(uint8_t mode) {
 	std::cout << "Got Return Message: '" << returnMessage << "Sent Message: "<< (int)mode << "'\n";
 }
 
-void PiracerClient::modeSelectCall(uint8_t gear) {
+void PiracerClient::gearSelectCall(uint8_t gear) {
     proxy->gearSelect(gear, callStatus, returnMessage);
 	std::cout << "Got Return Message: '" << returnMessage << "Sent Message: "<< (int)gear << "'\n";
 }
