@@ -38,8 +38,8 @@ void piracer_publish(std::shared_ptr<PiracerStubImpl>& PiracerService, uint8_t& 
 
             // Debug Battery Gear Mode
             std::cout << "Battery: " << int(battery) << std::endl;
-            std::cout << "Gear: " << gear << std::endl;
-            std::cout << "Mode: " << mode << std::endl;
+            std::cout << "Gear: " << int(gear) << std::endl;
+            std::cout << "Mode: " << int(mode) << std::endl;
 
             // Publish Data to Client
             PiracerService->batteryPublisher(battery);
@@ -69,7 +69,36 @@ void piracer_source(GamePad& gamepad, PiracerClass& piracer, uint8_t& gear, uint
                 // Battery change
                 batteryLevel = piracer.getBattery();
 
-                // Set Piracer throttle and steering
+                // Set Piracer throttle and steering based on gear
+                // Gear values: 0 (P), 1 (R), 2 (N), 3 (D)
+                switch(gear) {
+                    case 0: // P (Park)
+                        // No throttle, no steering
+                        piracer.setThrottle(0);
+                        piracer.setSteering(0);
+                        break;
+                    case 1: // R (Reverse)
+                        // Steering enabled, throttle < 0
+                        piracer.setThrottle(throttle < 0 ? throttle : 0);
+                        piracer.setSteering(steering);
+                        break;
+                    case 2: // N (Neutral)
+                        // Steering enabled, no throttle
+                        piracer.setThrottle(0);
+                        piracer.setSteering(steering);
+                        break;
+                    case 3: // D (Drive)
+                        // Steering enabled, throttle > 0
+                        piracer.setThrottle(throttle > 0 ? throttle : 0);
+                        piracer.setSteering(steering);
+                        break;
+                    default:
+                        // Invalid gear, no operation
+                        piracer.setThrottle(0);
+                        piracer.setSteering(0);
+                }
+            }
+
                 piracer.setThrottle(throttle * int(mode) * 0.1);
                 piracer.setSteering(steering);
             }

@@ -89,7 +89,7 @@ int main() {
 		std::cout << "Waiting data ... " << std::endl;
 		std::this_thread::sleep_for(std::chrono::seconds(1));
 		i++;
-		if(i > 5)
+		if(i > 3)
 			i = 0;
 	}
 	
